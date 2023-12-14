@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/css/reset.css">
+    <link rel="stylesheet" href="./static/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <title>Home | Recipe Book</title>
+</head>
+
+<!-- dark-mode -->
+<body>
+
+    <header>
+        <div class="max-width">
+            <h1><a href="./index.html">Recipe Book</a></h1>
+            <img src="./static/media/images/plate.png">
+        </div>
+    </header>
+
+    <main class="max-width">
+
+        <article class="filter">
+            <h2>Filter</h2>
+
+            <section class="filter-section">
+                <div class="flex">
+                    <h3>Category</h3>
+                    <input type="reset" form="form__category" value="Reset">
+                </div>
+                <form id="form__category">
+                    <input type="radio" , id="pasta" , name="category">
+                    <label for="pasta">Pasta</label><br>
+                    <input type="radio" , id="soup" , name="category">
+                    <label for="soup">Soup</label><br>
+                    <input type="radio" , id="salad" , name="category">
+                    <label for="salad">Salad</label><br>
+                    <input type="radio" , id="dessert" , name="category">
+                    <label for="dessert">Dessert</label><br>
+                    <input type="radio" , id="meat" , name="category">
+                    <label for="meat">Meat</label><br>
+                    <input type="radio" , id="fish" , name="category">
+                    <label for="fish">Fish</label>
+                </form>
+            </section>
+
+            <section class="filter-section">
+                <div class="flex">
+                    <h3>Difficulty level</h3>
+                    <input type="reset" form="form__difficulty-level" value="Reset">
+                </div>
+                <form id="form__difficulty-level">
+                    <input type="radio" , id="easy" , name="difficulty-level">
+                    <label for="easy">Easy</label><br>
+                    <input type="radio" , id="medium" , name="difficulty-level">
+                    <label for="medium">Medium</label><br>
+                    <input type="radio" , id="hard" , name="difficulty-level">
+                    <label for="hard">Hard</label>
+                </form>
+            </section>
+        </article>
+
+        <article class="recipes-container">
+            <div class="flex">
+                <h2>Recipes</h2>
+                <button class="add-recipe">Add recipe</button>
+            </div>
+            <div class="recipes-preview"></div>
+        </article>
+
+
+    </main>
+
+    <script src="./static/js/main.js"></script>
+
+</body>
+
+</html>
