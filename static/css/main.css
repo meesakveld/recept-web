@@ -206,11 +206,32 @@ main {
     margin-top: 2rem;
     line-height: 200%;
 
+    & button.save {
+        display: none;
+    }
+
+    &.edit button {
+
+        &.edit {
+            display: none;
+        }
+
+        &.save {
+            display: inline-block;
+        }
+    }
+
     & .subtitle {
-        color: var(--red);
         font-weight: 700;
         margin-top: -1rem;
         margin-bottom: 2rem;
+        display: flex;
+        column-gap: 1rem;
+        flex-wrap: wrap;
+
+        & p {
+            color: var(--red);
+        }
     }
 
     & .ingredients {
@@ -219,7 +240,23 @@ main {
         padding: 1rem;
         padding-left: 2rem;
         margin-bottom: 3rem;
-        list-style: decimal;
+    }
+    
+    & .ingredients li{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 1rem;
     }
 
+    & input {
+        background-color: var(--gray);
+        border: 1px solid var(--red);
+        border-radius: 0.3rem;
+        padding: 0rem 0.4rem;
+    }
+
+    & .subtitle input {
+        color: var(--red);
+    }
+ 
 }
