@@ -23,31 +23,32 @@
 
     <main class="max-width">
         <div class="recipe">
-            <button class="recipe-btn">Edit recipe</button>
+            <button class="recipe-btn edit">Edit recipe</button>
+            <button class="recipe-btn save">Save recipe</button>
+            
+            <form>
+                <h2 class="title">Pasta Carbonara</h2>
+                <div class="subtitle"><p>${servings}p</p> | <p>${cookingtime}</p> | <p>${difficulty}</p></div>
 
-            <h2 class="title">Pasta Carbonara</h2>
-            <p class="subtitle">${servings}p | ${cookingtime} ${cookingtime to text} | ${difficulty}</p>
+                <ul class="ingredients">
+                    <li>•<p>${amount}</p><p>${name}</p></li>
+                    <li>•<p>${amount}</p><p>${name}</p></li>
+                    <li>•<p>${amount}</p><p>${name}</p></li>
+                    <li>•<p>${amount}</p><p>${name}</p></li>
+                    <li>•<p>${amount}</p><p>${name}</p></li>
+                    <li>•<p>${amount}</p><p>${name}</p></li>
+                    <li>•<p>${amount}</p><p>${name}</p></li>
+                </ul>
 
-            <ul class="ingredients">
-                <li>${amount} ${name}</li>
-                <li>${amount} ${name}</li>
-                <li>${amount} ${name}</li>
-                <li>${amount} ${name}</li>
-                <li>${amount} ${name}</li>
-                <li>${amount} ${name}</li>
-                <li>${amount} ${name}</li>
-                <li>${amount} ${name}</li>
-                <li>${amount} ${name}</li>
-            </ul>
-
-            <ul class="instructions">
-                <li>Instructions</li>
-                <li>InstructionsInstructionsInstructionsInstructionsInstructionsInstructions</li>
-                <li>InstructionsInstructionsInstructionsInstructions</li>
-                <li>InstructionsInstructionsInstructionsInstructionsInstructionsInstructions</li>
-                <li>InstructionsInstructions</li>
-                <li>InstructionsInstructionsInstructions</li>
-            </ul>
+                <ul class="instructions">
+                    <li><p>Instructions</p></li>
+                    <li><p>InstructionsInstructionsInstructionsInstructionsInstructionsInstructions</p></li>
+                    <li><p>InstructionsInstructionsInstructionsInstructions</p></li>
+                    <li><p>InstructionsInstructionsInstructionsInstructionsInstructionsInstructions</p></li>
+                    <li><p>InstructionsInstructions</p></li>
+                    <li><p>InstructionsInstructionsInstructions</p></li>
+                </ul>
+            </form>
         </div>
     </main>
 
