@@ -4,10 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/css/reset.css">
+    <link rel="stylesheet" href="./static/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
     <title>Recipe | Recipe Book</title>
 </head>
 
 <body>
+
+    <header>
+        <div class="max-width">
+            <h1><a href="./index.html">Recipe Book</a></h1>
+            <img src="./static/media/images/plate.png">
+        </div>
+    </header>
+
+    <main class="max-width">
+        <div class="recipe">
+            <button class="recipe-btn">Edit recipe</button>
+
+            <h2 class="title">Pasta Carbonara</h2>
+            <p class="subtitle">${servings}p | ${cookingtime} ${cookingtime to text} | ${difficulty}</p>
+
+            <ul class="ingredients">
+                <li>${amount} ${name}</li>
+                <li>${amount} ${name}</li>
+                <li>${amount} ${name}</li>
+                <li>${amount} ${name}</li>
+                <li>${amount} ${name}</li>
+                <li>${amount} ${name}</li>
+                <li>${amount} ${name}</li>
+                <li>${amount} ${name}</li>
+                <li>${amount} ${name}</li>
+            </ul>
+
+            <ul class="instructions">
+                <li>Instructions</li>
+                <li>InstructionsInstructionsInstructionsInstructionsInstructionsInstructions</li>
+                <li>InstructionsInstructionsInstructionsInstructions</li>
+                <li>InstructionsInstructionsInstructionsInstructionsInstructionsInstructions</li>
+                <li>InstructionsInstructions</li>
+                <li>InstructionsInstructionsInstructions</li>
+            </ul>
+        </div>
+    </main>
 
 </body>
 

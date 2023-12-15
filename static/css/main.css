@@ -116,7 +116,7 @@ main {
 }
 
 @media (width > 42.5rem) {
-    main {
+    .home {
         display: flex;
         align-items: baseline;
         gap: 3rem;
@@ -198,4 +198,28 @@ main {
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
     }   
+}
+
+
+/* RECIPE VIEW */
+.recipe {
+    margin-top: 2rem;
+    line-height: 200%;
+
+    & .subtitle {
+        color: var(--red);
+        font-weight: 700;
+        margin-top: -1rem;
+        margin-bottom: 2rem;
+    }
+
+    & .ingredients {
+        background-color: var(--gray);
+        display: inline-block;
+        padding: 1rem;
+        padding-left: 2rem;
+        margin-bottom: 3rem;
+        list-style: decimal;
+    }
+
 }
