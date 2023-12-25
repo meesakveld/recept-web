@@ -123,6 +123,13 @@ main {
     }
 }
 
+a.add-recipe {
+    border: 1px solid var(--red);
+    background-color: var(--gray);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
 /* ————— filter ————— */
 .filter {
     background-color: var(--gray);
@@ -186,6 +193,11 @@ main {
     font-size: 1rem;
 }
 
+.recipe-preview .subtitle {
+    display: flex;
+    gap: 0.5rem;
+}
+
 .recipes-preview {
     display: flex;
     flex-direction: column;
@@ -206,7 +218,7 @@ main {
     margin-top: 2rem;
     line-height: 200%;
 
-    & button.save {
+    & button.save, & button.addIngredient {
         display: none;
     }
 
@@ -219,11 +231,16 @@ main {
         &.save {
             display: inline-block;
         }
+
+        &.addIngredient {
+            display: block;
+            margin-left: 1rem;
+            margin-top: 1rem;
+        }
     }
 
     & .subtitle {
         font-weight: 700;
-        margin-top: -1rem;
         margin-bottom: 2rem;
         display: flex;
         column-gap: 1rem;
@@ -240,12 +257,17 @@ main {
         padding: 1rem;
         padding-left: 2rem;
         margin-bottom: 3rem;
+
+        & input {
+            width: 45%;
+        }
+
     }
     
     & .ingredients li{
         display: flex;
         flex-wrap: wrap;
-        column-gap: 1rem;
+        column-gap: 0.5rem;
     }
 
     & input {
@@ -257,6 +279,18 @@ main {
 
     & .subtitle input {
         color: var(--red);
+    }
+
+    & textarea {
+        border-color: var(--red);
+        width: 100%;
+        border-radius: 0.25rem;
+    }
+
+    & input.title {
+        width: 100%;
+        margin: 1rem auto;
+        font-weight: bold;
     }
  
 }
