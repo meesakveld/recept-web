@@ -1,0 +1,2759 @@
+[
+    {
+        "id": "f3144eae-5fc6-4a3a-b6ab-b0bae282e3dd",
+        "title": "Pasta Carbonara",
+        "category": "Pasta",
+        "ingredients": [
+            {
+                "name": "spaghetti",
+                "amount": "200g"
+            },
+            {
+                "name": "eieren",
+                "amount": "2"
+            },
+            {
+                "name": "spek",
+                "amount": "100g"
+            },
+            {
+                "name": "Parmezaanse kaas",
+                "amount": "50g"
+            }
+        ],
+        "instructions": "Kook de spaghetti en bak het spek. Meng de eieren en kaas. Giet de saus over de spaghetti en meng met spek.",
+        "cookingTime": 20,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "f06ac031-b168-47a8-9cc5-5dc4b362ad96",
+        "title": "Kippensoep",
+        "category": "Soep",
+        "ingredients": [
+            {
+                "name": "kipfilet",
+                "amount": "300g"
+            },
+            {
+                "name": "wortelen",
+                "amount": "150g"
+            },
+            {
+                "name": "uien",
+                "amount": "2"
+            },
+            {
+                "name": "peterselie",
+                "amount": "1 bosje"
+            }
+        ],
+        "instructions": "Kook de kipfilet, wortelen en uien in water. Voeg peterselie toe en laat sudderen. Breng op smaak met zout en peper.",
+        "cookingTime": 30,
+        "difficulty": "Gemiddeld",
+        "servings": 4
+    },
+    {
+        "id": "be5348ba-4654-4aa2-b8fb-0ad57b0cf6d9",
+        "title": "Gegrilde Zalm",
+        "category": "Vis",
+        "ingredients": [
+            {
+                "name": "zalmfilet",
+                "amount": "250g"
+            },
+            {
+                "name": "olijfolie",
+                "amount": "2 eetlepels"
+            },
+            {
+                "name": "citroen",
+                "amount": "1"
+            },
+            {
+                "name": "verse dille",
+                "amount": "1 eetlepel"
+            }
+        ],
+        "instructions": "Marineer de zalm in olijfolie, citroensap en dille. Grill tot de zalm gaar is.",
+        "cookingTime": 15,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "c81a0caa-69c6-4e5a-8e50-51f7800d4d29",
+        "title": "Vegetarische Quinoa Salade",
+        "category": "Salade",
+        "ingredients": [
+            {
+                "name": "quinoa",
+                "amount": "1 kop"
+            },
+            {
+                "name": "komkommer",
+                "amount": "1"
+            },
+            {
+                "name": "tomaten",
+                "amount": "250g"
+            },
+            {
+                "name": "feta kaas",
+                "amount": "100g"
+            }
+        ],
+        "instructions": "Kook de quinoa volgens de verpakking. Snijd de groenten en meng met de gekookte quinoa. Voeg feta toe en besprenkel met olijfolie.",
+        "cookingTime": 25,
+        "difficulty": "Gemakkelijk",
+        "servings": 3
+    },
+    {
+        "id": "40de75f7-3588-49ef-8435-4b61e2b69a48",
+        "title": "Ratatouille",
+        "category": "Groente",
+        "ingredients": [
+            {
+                "name": "aubergine",
+                "amount": "1"
+            },
+            {
+                "name": "courgette",
+                "amount": "1"
+            },
+            {
+                "name": "rode paprika",
+                "amount": "1"
+            },
+            {
+                "name": "tomaten",
+                "amount": "3"
+            }
+        ],
+        "instructions": "Snijd alle groenten in plakjes. Schik in een ovenschaal en bak tot ze gaar zijn. Breng op smaak met kruiden naar keuze.",
+        "cookingTime": 40,
+        "difficulty": "Gemiddeld",
+        "servings": 4
+    },
+    {
+        "id": "2dc399b9-a10d-4092-97f3-0e63f6d5962d",
+        "title": "Spaghetti Bolognese",
+        "category": "Pasta",
+        "ingredients": [
+            {
+                "name": "spaghetti",
+                "amount": "250g"
+            },
+            {
+                "name": "gehakt",
+                "amount": "300g"
+            },
+            {
+                "name": "uien",
+                "amount": "2"
+            },
+            {
+                "name": "tomatenpuree",
+                "amount": "3 eetlepels"
+            }
+        ],
+        "instructions": "Kook de spaghetti volgens de verpakking. Bak het gehakt met ui en voeg tomatenpuree toe. Serveer de saus over de spaghetti.",
+        "cookingTime": 25,
+        "difficulty": "Gemiddeld",
+        "servings": 3
+    },
+    {
+        "id": "77e1a413-26b6-463c-ade0-a18ce3c80261",
+        "title": "Caesar Salade",
+        "category": "Salade",
+        "ingredients": [
+            {
+                "name": "romaine sla",
+                "amount": "1 krop"
+            },
+            {
+                "name": "kipfilet",
+                "amount": "200g"
+            },
+            {
+                "name": "croutons",
+                "amount": "1 kop"
+            },
+            {
+                "name": "Caesar dressing",
+                "amount": "1/2 kop"
+            }
+        ],
+        "instructions": "Snijd de sla en kip. Meng met croutons en dressing. Garneer met Parmezaanse kaas.",
+        "cookingTime": 15,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "14c98124-fd6f-4c04-a29e-c2777e966fef",
+        "title": "Thaise Groene Curry",
+        "category": "Curry",
+        "ingredients": [
+            {
+                "name": "kippenborst",
+                "amount": "400g"
+            },
+            {
+                "name": "Thaise groene currypasta",
+                "amount": "2 eetlepels"
+            },
+            {
+                "name": "kokosmelk",
+                "amount": "1 blik"
+            },
+            {
+                "name": "bamboescheuten",
+                "amount": "1 kop"
+            }
+        ],
+        "instructions": "Bak de kip met currypasta. Voeg kokosmelk toe en laat sudderen. Voeg bamboescheuten toe en serveer met rijst.",
+        "cookingTime": 30,
+        "difficulty": "Gemiddeld",
+        "servings": 4
+    },
+    {
+        "id": "73aa86a2-a258-435b-af62-2c1837170030",
+        "title": "Hamburger met Friet",
+        "category": "Snack",
+        "ingredients": [
+            {
+                "name": "rundvleespatty",
+                "amount": "1"
+            },
+            {
+                "name": "hamburgerbroodje",
+                "amount": "1"
+            },
+            {
+                "name": "aardappelen",
+                "amount": "300g"
+            },
+            {
+                "name": "mayonaise",
+                "amount": "2 eetlepels"
+            }
+        ],
+        "instructions": "Bak de patty en friet. Plaats de patty in het broodje en serveer met friet. Serveer met mayonaise.",
+        "cookingTime": 25,
+        "difficulty": "Gemakkelijk",
+        "servings": 1
+    },
+    {
+        "id": "cde19eea-3bfe-4a3e-aa07-a551fe21e6fd",
+        "title": "Griekse Gyros Wrap",
+        "category": "Wrap",
+        "ingredients": [
+            {
+                "name": "gyros",
+                "amount": "300g"
+            },
+            {
+                "name": "tomaten",
+                "amount": "2"
+            },
+            {
+                "name": "ui",
+                "amount": "1"
+            },
+            {
+                "name": "tzatziki",
+                "amount": "1/2 kop"
+            }
+        ],
+        "instructions": "Bak de gyros en snijd de tomaten en ui. Verwarm de wrap en vul met gyros, tomaten, ui en tzatziki.",
+        "cookingTime": 20,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "9b94cb90-1699-424c-ba68-f6b90f8791d2",
+        "title": "Risotto met Champignons",
+        "category": "Risotto",
+        "ingredients": [
+            {
+                "name": "arborio rijst",
+                "amount": "1 kop"
+            },
+            {
+                "name": "champignons",
+                "amount": "200g"
+            },
+            {
+                "name": "ui",
+                "amount": "1"
+            },
+            {
+                "name": "witte wijn",
+                "amount": "1/2 kop"
+            }
+        ],
+        "instructions": "Bak de ui en champignons. Voeg de rijst toe en bak tot het glazig is. Blus af met witte wijn. Voeg bouillon toe en kook tot de rijst gaar is.",
+        "cookingTime": 30,
+        "difficulty": "Gemiddeld",
+        "servings": 3
+    },
+    {
+        "id": "09225e6e-33e1-47fb-9161-fd4c9656435d",
+        "title": "Kip Tandoori",
+        "category": "Curry",
+        "ingredients": [
+            {
+                "name": "kippenpoten",
+                "amount": "4"
+            },
+            {
+                "name": "tandoori kruiden",
+                "amount": "2 eetlepels"
+            },
+            {
+                "name": "yoghurt",
+                "amount": "1 kop"
+            },
+            {
+                "name": "citroen",
+                "amount": "1"
+            }
+        ],
+        "instructions": "Meng tandoori kruiden met yoghurt. Marineer de kip in het mengsel en bak in de oven. Besprenkel met citroensap voor het serveren.",
+        "cookingTime": 40,
+        "difficulty": "Gemiddeld",
+        "servings": 4
+    },
+    {
+        "id": "57877d69-a85c-4b36-a52f-0dab18f72e9b",
+        "title": "Cesar Pasta Salade",
+        "category": "Salade",
+        "ingredients": [
+            {
+                "name": "pasta",
+                "amount": "250g"
+            },
+            {
+                "name": "kalkoenfilet",
+                "amount": "200g"
+            },
+            {
+                "name": "kerstomaatjes",
+                "amount": "1 kop"
+            },
+            {
+                "name": "Caesar dressing",
+                "amount": "1/2 kop"
+            }
+        ],
+        "instructions": "Kook de pasta en bak de kalkoen. Meng met kerstomaatjes en Caesar dressing. Koel voor het serveren.",
+        "cookingTime": 25,
+        "difficulty": "Gemakkelijk",
+        "servings": 3
+    },
+    {
+        "id": "8524da0b-f61d-43f2-8730-71f4430dc4ce",
+        "title": "Zalm Teriyaki",
+        "category": "Vis",
+        "ingredients": [
+            {
+                "name": "zalmfilet",
+                "amount": "250g"
+            },
+            {
+                "name": "teriyaki saus",
+                "amount": "1/4 kop"
+            },
+            {
+                "name": "sesamzaadjes",
+                "amount": "1 eetlepel"
+            },
+            {
+                "name": "bosui",
+                "amount": "2"
+            }
+        ],
+        "instructions": "Bak de zalm en glazuur met teriyaki saus. Garneer met sesamzaadjes en gesneden bosui.",
+        "cookingTime": 20,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "df34c2f3-5a7f-48b9-b2b8-8aa5a50b6b0a",
+        "title": "Caprese Broodje",
+        "category": "Sandwich",
+        "ingredients": [
+            {
+                "name": "ciabatta brood",
+                "amount": "1"
+            },
+            {
+                "name": "tomaat",
+                "amount": "2"
+            },
+            {
+                "name": "mozzarella",
+                "amount": "200g"
+            },
+            {
+                "name": "basilicumblaadjes",
+                "amount": "1/2 kop"
+            }
+        ],
+        "instructions": "Snijd het brood doormidden en beleg met plakjes tomaat, mozzarella en basilicumblaadjes.",
+        "cookingTime": 15,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "5f7ef675-c949-45cf-8870-570f37f136dd",
+        "title": "Pompoenrisotto",
+        "category": "Risotto",
+        "ingredients": [
+            {
+                "name": "pompoen",
+                "amount": "500g"
+            },
+            {
+                "name": "risottorijst",
+                "amount": "1 kop"
+            },
+            {
+                "name": "ui",
+                "amount": "1"
+            },
+            {
+                "name": "groentebouillon",
+                "amount": "4 koppen"
+            }
+        ],
+        "instructions": "Bak de ui en pompoen. Voeg de rijst toe en bak kort. Voeg bouillon toe en kook tot de rijst gaar is.",
+        "cookingTime": 35,
+        "difficulty": "Gemiddeld",
+        "servings": 4
+    },
+    {
+        "id": "ff731b68-fd81-43bd-88cb-26acbd941ca1",
+        "title": "Gevulde Paprika's",
+        "category": "Groente",
+        "ingredients": [
+            {
+                "name": "paprika's",
+                "amount": "4"
+            },
+            {
+                "name": "rundgehakt",
+                "amount": "300g"
+            },
+            {
+                "name": "rijst",
+                "amount": "1/2 kop"
+            },
+            {
+                "name": "tomatensaus",
+                "amount": "1 blik"
+            }
+        ],
+        "instructions": "Kook de rijst. Bak het gehakt en meng met gekookte rijst. Vul de paprika's en bedek met tomatensaus. Bak in de oven.",
+        "cookingTime": 45,
+        "difficulty": "Gemiddeld",
+        "servings": 4
+    },
+    {
+        "id": "c9eabd70-85e1-4fb1-8947-460e9cbe6e82",
+        "title": "Griekse Moussaka",
+        "category": "Ovenschotel",
+        "ingredients": [
+            {
+                "name": "aubergine",
+                "amount": "2"
+            },
+            {
+                "name": "rundgehakt",
+                "amount": "400g"
+            },
+            {
+                "name": "aardappelen",
+                "amount": "4"
+            },
+            {
+                "name": "bechamelsaus",
+                "amount": "2 koppen"
+            }
+        ],
+        "instructions": "Bak aubergine en aardappelen. Bak het gehakt en leg afwisselend laagjes in een ovenschaal. Bedek met bechamelsaus en bak in de oven.",
+        "cookingTime": 50,
+        "difficulty": "Gemiddeld",
+        "servings": 6
+    },
+    {
+        "id": "2628fd3f-227c-4d6b-9623-00af2ae18c61",
+        "title": "Mango Kip Curry",
+        "category": "Curry",
+        "ingredients": [
+            {
+                "name": "kipfilet",
+                "amount": "300g"
+            },
+            {
+                "name": "mango",
+                "amount": "1"
+            },
+            {
+                "name": "currypasta",
+                "amount": "3 eetlepels"
+            },
+            {
+                "name": "kokosmelk",
+                "amount": "1 blik"
+            }
+        ],
+        "instructions": "Bak de kip met currypasta. Voeg mango en kokosmelk toe. Laat sudderen tot de kip gaar is.",
+        "cookingTime": 35,
+        "difficulty": "Gemiddeld",
+        "servings": 3
+    },
+    {
+        "id": "1f3b1313-8bfa-4ccb-8584-e8229e7ec6a6",
+        "title": "Koude Pastasalade",
+        "category": "Salade",
+        "ingredients": [
+            {
+                "name": "pasta",
+                "amount": "300g"
+            },
+            {
+                "name": "kerstomaatjes",
+                "amount": "1 kop"
+            },
+            {
+                "name": "komkommer",
+                "amount": "1"
+            },
+            {
+                "name": "Italiaanse dressing",
+                "amount": "1/2 kop"
+            }
+        ],
+        "instructions": "Kook de pasta en koel af. Meng met kerstomaatjes, komkommer en Italiaanse dressing.",
+        "cookingTime": 20,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": "6d42edda-a744-4f4d-9f15-eda0dbcac9aa",
+        "title": "Citroen Knoflook Garnalen",
+        "category": "Vis",
+        "ingredients": [
+            {
+                "name": "garnalen",
+                "amount": "300g"
+            },
+            {
+                "name": "knoflook",
+                "amount": "4 teentjes"
+            },
+            {
+                "name": "citroen",
+                "amount": "1"
+            },
+            {
+                "name": "olijfolie",
+                "amount": "2 eetlepels"
+            }
+        ],
+        "instructions": "Bak de garnalen met gehakte knoflook en olijfolie. Pers citroensap erover en serveer.",
+        "cookingTime": 15,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "1a84e471-6783-4b0f-970f-9b49de2811b0",
+        "title": "Aardappel Prei Soep",
+        "category": "Soep",
+        "ingredients": [
+            {
+                "name": "aardappelen",
+                "amount": "3"
+            },
+            {
+                "name": "prei",
+                "amount": "2"
+            },
+            {
+                "name": "uien",
+                "amount": "2"
+            },
+            {
+                "name": "groentebouillon",
+                "amount": "4 koppen"
+            }
+        ],
+        "instructions": "Snijd aardappelen, prei en uien. Kook in groentebouillon. Pureer tot een gladde soep.",
+        "cookingTime": 30,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": "8cd285c4-e005-4584-aac5-3762ba7b546c",
+        "title": "Kip Caesar Wrap",
+        "category": "Wrap",
+        "ingredients": [
+            {
+                "name": "kippendijen",
+                "amount": "400g"
+            },
+            {
+                "name": "Romeinse sla",
+                "amount": "1 krop"
+            },
+            {
+                "name": "Caesar dressing",
+                "amount": "1/2 kop"
+            },
+            {
+                "name": "volkoren wraps",
+                "amount": "4"
+            }
+        ],
+        "instructions": "Bak de kippendijen en snijd ze in plakjes. Beleg de wraps met sla, plakjes kip en Caesar dressing. Rol op en serveer.",
+        "cookingTime": 25,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": "5ca63fe8-f233-443d-b1ab-58579940fc53",
+        "title": "Quiche met Spinazie en Feta",
+        "category": "Hartige Taart",
+        "ingredients": [
+            {
+                "name": "bladerdeeg",
+                "amount": "1 vel"
+            },
+            {
+                "name": "spinazie",
+                "amount": "200g"
+            },
+            {
+                "name": "feta kaas",
+                "amount": "150g"
+            },
+            {
+                "name": "eieren",
+                "amount": "3"
+            }
+        ],
+        "instructions": "Bekleed een taartvorm met bladerdeeg. Bak spinazie kort en meng met verkruimelde feta. Klop eieren en giet over de spinazie. Bak in de oven.",
+        "cookingTime": 40,
+        "difficulty": "Gemiddeld",
+        "servings": 6
+    },
+    {
+        "id": "a38f2aa0-adba-446c-baf0-4b326fe1de5d",
+        "title": "Rijstnoedels met Groenten",
+        "category": "Noedels",
+        "ingredients": [
+            {
+                "name": "rijstnoedels",
+                "amount": "250g"
+            },
+            {
+                "name": "broccoli",
+                "amount": "1"
+            },
+            {
+                "name": "wortelen",
+                "amount": "2"
+            },
+            {
+                "name": "sojasaus",
+                "amount": "3 eetlepels"
+            }
+        ],
+        "instructions": "Kook rijstnoedels volgens de verpakking. Roerbak gesneden groenten in sojasaus. Meng met gekookte noedels.",
+        "cookingTime": 20,
+        "difficulty": "Gemakkelijk",
+        "servings": 3
+    },
+    {
+        "id": "9c12804a-a6e5-4ea5-910c-45712ac0347e",
+        "title": "Gebraden Kip met Rozemarijn",
+        "category": "Gevogelte",
+        "ingredients": [
+            {
+                "name": "hele kip",
+                "amount": "1"
+            },
+            {
+                "name": "rozemarijn",
+                "amount": "2 takjes"
+            },
+            {
+                "name": "knoflook",
+                "amount": "4 teentjes"
+            },
+            {
+                "name": "olijfolie",
+                "amount": "3 eetlepels"
+            }
+        ],
+        "instructions": "Wrijf de kip in met olijfolie, gehakte rozemarijn en knoflook. Rooster in de oven tot gaar.",
+        "cookingTime": 60,
+        "difficulty": "Gemiddeld",
+        "servings": 4
+    },
+    {
+        "id": "af13f2cd-bae8-423d-9b2e-4f5bc6da33b7",
+        "title": "Thaise Tom Kha Soep",
+        "category": "Soep",
+        "ingredients": [
+            {
+                "name": "kokosmelk",
+                "amount": "1 blik"
+            },
+            {
+                "name": "kippendijen",
+                "amount": "300g"
+            },
+            {
+                "name": "champignons",
+                "amount": "150g"
+            },
+            {
+                "name": "citroengras",
+                "amount": "2 stengels"
+            }
+        ],
+        "instructions": "Breng kokosmelk aan de kook. Voeg kippendijen, champignons en citroengras toe. Laat sudderen tot de kip gaar is.",
+        "cookingTime": 30,
+        "difficulty": "Gemakkelijk",
+        "servings": 3
+    },
+    {
+        "id": "d44bc0b4-7ce7-4f40-ab28-bfc35ecb9b38",
+        "title": "Mediterrane Quiche",
+        "category": "Hartige Taart",
+        "ingredients": [
+            {
+                "name": "bladerdeeg",
+                "amount": "1 vel"
+            },
+            {
+                "name": "tomaten",
+                "amount": "3"
+            },
+            {
+                "name": "verse basilicum",
+                "amount": "1/2 kop"
+            },
+            {
+                "name": "feta kaas",
+                "amount": "100g"
+            }
+        ],
+        "instructions": "Bekleed een taartvorm met bladerdeeg. Beleg met plakjes tomaat, feta en verse basilicum. Bak in de oven.",
+        "cookingTime": 35,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": "73fa3548-2cd0-445b-b3f2-93071bfdc2d0",
+        "title": "Zoete Aardappel Chili",
+        "category": "Stoofpot",
+        "ingredients": [
+            {
+                "name": "zoete aardappelen",
+                "amount": "2"
+            },
+            {
+                "name": "zwarte bonen",
+                "amount": "1 blik"
+            },
+            {
+                "name": "tomaten",
+                "amount": "2"
+            },
+            {
+                "name": "chilipoeder",
+                "amount": "2 theelepels"
+            }
+        ],
+        "instructions": "Schil en snijd zoete aardappelen. Voeg zwarte bonen, tomaten en chilipoeder toe. Stoof tot de aardappelen gaar zijn.",
+        "cookingTime": 40,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": "1812344d-5f86-4d93-9e01-c1981504d8ca",
+        "title": "Pesto Kippenpasta",
+        "category": "Pasta",
+        "ingredients": [
+            {
+                "name": "pasta",
+                "amount": "300g"
+            },
+            {
+                "name": "kipfilet",
+                "amount": "250g"
+            },
+            {
+                "name": "cherrytomaatjes",
+                "amount": "1 kop"
+            },
+            {
+                "name": "pesto",
+                "amount": "1/2 kop"
+            }
+        ],
+        "instructions": "Kook de pasta en bak de kipfilet. Meng met gehalveerde cherrytomaatjes en pesto. Serveer warm.",
+        "cookingTime": 25,
+        "difficulty": "Gemakkelijk",
+        "servings": 3
+    },
+    {
+        "id": "6c922e15-adc7-40ca-928b-2d2973514213",
+        "title": "Garnalen Pad Thai",
+        "category": "Noedels",
+        "ingredients": [
+            {
+                "name": "rijstnoedels",
+                "amount": "200g"
+            },
+            {
+                "name": "garnalen",
+                "amount": "250g"
+            },
+            {
+                "name": "taugé",
+                "amount": "1 kop"
+            },
+            {
+                "name": "pinda's",
+                "amount": "1/2 kop"
+            }
+        ],
+        "instructions": "Week rijstnoedels in warm water. Roerbak garnalen en taugé. Voeg gekookte noedels toe en garneer met pinda's.",
+        "cookingTime": 30,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "c1b3360b-5961-44e0-868b-111520bb2593",
+        "title": "Aubergine Parmezaan",
+        "category": "Ovenschotel",
+        "ingredients": [
+            {
+                "name": "aubergine",
+                "amount": "2"
+            },
+            {
+                "name": "tomatensaus",
+                "amount": "1 blik"
+            },
+            {
+                "name": "Parmezaanse kaas",
+                "amount": "1/2 kop"
+            },
+            {
+                "name": "verse basilicum",
+                "amount": "1/4 kop"
+            }
+        ],
+        "instructions": "Snijd aubergine in plakjes en bak. Bedek met tomatensaus, Parmezaanse kaas en basilicum. Bak in de oven.",
+        "cookingTime": 45,
+        "difficulty": "Gemiddeld",
+        "servings": 4
+    },
+    {
+        "id": "5bce95be-5146-4ec5-bd7b-1163bd84dc89",
+        "title": "Griekse Salade",
+        "category": "Salade",
+        "ingredients": [
+            {
+                "name": "komkommer",
+                "amount": "1"
+            },
+            {
+                "name": "tomaten",
+                "amount": "2"
+            },
+            {
+                "name": "feta kaas",
+                "amount": "150g"
+            },
+            {
+                "name": "zwarte olijven",
+                "amount": "1/2 kop"
+            }
+        ],
+        "instructions": "Snijd komkommer, tomaten en feta. Meng met zwarte olijven. Besprenkel met olijfolie.",
+        "cookingTime": 15,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "d38dc566-78ab-4281-b120-c51325047aef",
+        "title": "Kippenpoten uit de Oven",
+        "category": "Gevogelte",
+        "ingredients": [
+            {
+                "name": "kippenpoten",
+                "amount": "4"
+            },
+            {
+                "name": "citroen",
+                "amount": "1"
+            },
+            {
+                "name": "knoflookpoeder",
+                "amount": "1 theelepel"
+            },
+            {
+                "name": "paprikapoeder",
+                "amount": "1 theelepel"
+            }
+        ],
+        "instructions": "Wrijf kippenpoten in met citroensap, knoflookpoeder en paprikapoeder. Bak in de oven tot goudbruin.",
+        "cookingTime": 50,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": "46baa251-0803-4739-b273-2fbfad8c24fe",
+        "title": "Pompoensoep met Kokosmelk",
+        "category": "Soep",
+        "ingredients": [
+            {
+                "name": "pompoen",
+                "amount": "500g"
+            },
+            {
+                "name": "kokosmelk",
+                "amount": "1 blik"
+            },
+            {
+                "name": "ui",
+                "amount": "1"
+            },
+            {
+                "name": "kerriepoeder",
+                "amount": "2 theelepels"
+            }
+        ],
+        "instructions": "Bak gesneden pompoen en ui in kerriepoeder. Voeg kokosmelk toe en kook tot de pompoen zacht is. Pureer tot een gladde soep.",
+        "cookingTime": 35,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": "4562f2e2-cbc3-4fe8-adff-b28f71635039",
+        "title": "Italiaanse Lasagne",
+        "category": "Ovenschotel",
+        "ingredients": [
+            {
+                "name": "lasagnevellen",
+                "amount": "9"
+            },
+            {
+                "name": "rundgehakt",
+                "amount": "400g"
+            },
+            {
+                "name": "tomatensaus",
+                "amount": "2 koppen"
+            },
+            {
+                "name": "mozzarella",
+                "amount": "200g"
+            }
+        ],
+        "instructions": "Bak gehakt en voeg tomatensaus toe. Bouw lasagne op met vellen, gehaktmengsel en mozzarella. Bak in de oven.",
+        "cookingTime": 55,
+        "difficulty": "Gemiddeld",
+        "servings": 6
+    },
+    {
+        "id": "ea3f367b-d840-4b49-ad71-8968ec454653",
+        "title": "Citroen Munt Iced Tea",
+        "category": "Drank",
+        "ingredients": [
+            {
+                "name": "zwarte thee",
+                "amount": "4 zakjes"
+            },
+            {
+                "name": "citroen",
+                "amount": "1"
+            },
+            {
+                "name": "verse muntblaadjes",
+                "amount": "1/2 kop"
+            },
+            {
+                "name": "suiker",
+                "amount": "1/4 kop"
+            }
+        ],
+        "instructions": "Zet zwarte thee en laat afkoelen. Voeg citroensap, muntblaadjes en suiker toe. Serveer over ijs.",
+        "cookingTime": 10,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "5b7c9096-e194-47df-a8a6-d19bccfc83ee",
+        "title": "Romige Champignon Risotto",
+        "category": "Risotto",
+        "ingredients": [
+            {
+                "name": "arborio rijst",
+                "amount": "1 kop"
+            },
+            {
+                "name": "champignons",
+                "amount": "200g"
+            },
+            {
+                "name": "ui",
+                "amount": "1"
+            },
+            {
+                "name": "room",
+                "amount": "1/2 kop"
+            }
+        ],
+        "instructions": "Bak ui en champignons. Voeg rijst toe en bak kort. Voeg room toe en kook tot de rijst gaar is.",
+        "cookingTime": 30,
+        "difficulty": "Gemiddeld",
+        "servings": 3
+    },
+    {
+        "id": "9dfaa59b-2bb5-46bb-8c42-f876eff737cc",
+        "title": "Mango Ananas Smoothie",
+        "category": "Smoothie",
+        "ingredients": [
+            {
+                "name": "mango",
+                "amount": "1"
+            },
+            {
+                "name": "ananassap",
+                "amount": "1 kop"
+            },
+            {
+                "name": "yoghurt",
+                "amount": "1/2 kop"
+            },
+            {
+                "name": "honing",
+                "amount": "2 eetlepels"
+            }
+        ],
+        "instructions": "Schil en snijd mango. Blend met ananassap, yoghurt en honing tot een gladde smoothie.",
+        "cookingTime": 10,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "245850ed-3a24-4bca-a1ee-0c7b07e6a1b9",
+        "title": "Vegetarische Quesadilla",
+        "category": "Mexicaans",
+        "ingredients": [
+            {
+                "name": "bloemtortilla's",
+                "amount": "4"
+            },
+            {
+                "name": "zwarte bonen",
+                "amount": "1 blik"
+            },
+            {
+                "name": "maïs",
+                "amount": "1 kop"
+            },
+            {
+                "name": "cheddar kaas",
+                "amount": "1 kop"
+            }
+        ],
+        "instructions": "Leg bonen, maïs en cheddar tussen twee tortilla's. Bak tot de kaas smelt. Snijd in punten en serveer.",
+        "cookingTime": 20,
+        "difficulty": "Gemakkelijk",
+        "servings": 3
+    },
+    {
+        "id": "7f6acff6-af46-4c0e-9e67-4448f902477d",
+        "title": "Zoete Aardappel Frites",
+        "category": "Bijgerecht",
+        "ingredients": [
+            {
+                "name": "zoete aardappelen",
+                "amount": "2"
+            },
+            {
+                "name": "olijfolie",
+                "amount": "2 eetlepels"
+            },
+            {
+                "name": "paprikapoeder",
+                "amount": "1 theelepel"
+            },
+            {
+                "name": "knoflookpoeder",
+                "amount": "1/2 theelepel"
+            }
+        ],
+        "instructions": "Schil en snijd zoete aardappelen in frietvorm. Meng met olijfolie, paprikapoeder en knoflookpoeder. Bak in de oven.",
+        "cookingTime": 30,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "d09bb191-d416-47d0-8d4e-3ca00f4b6f9d",
+        "title": "Kip Enchiladas",
+        "category": "Mexicaans",
+        "ingredients": [
+            {
+                "name": "kipfilet",
+                "amount": "300g"
+            },
+            {
+                "name": "taco kruidenmix",
+                "amount": "1 zakje"
+            },
+            {
+                "name": "tortilla's",
+                "amount": "8"
+            },
+            {
+                "name": "cheddar kaas",
+                "amount": "1 kop"
+            }
+        ],
+        "instructions": "Bak kipfilet en kruid met tacokruiden. Vul tortilla's met kip en cheddar. Rol op en leg in een ovenschaal. Bak tot de kaas smelt.",
+        "cookingTime": 40,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": "12bcd59a-afe9-464d-8d24-860fe4084c3a",
+        "title": "Pasta Pesto met Kip",
+        "category": "Pasta",
+        "ingredients": [
+            {
+                "name": "pasta",
+                "amount": "250g"
+            },
+            {
+                "name": "kipfilet",
+                "amount": "200g"
+            },
+            {
+                "name": "pesto",
+                "amount": "1/2 kop"
+            },
+            {
+                "name": "cherrytomaatjes",
+                "amount": "1 kop"
+            }
+        ],
+        "instructions": "Kook pasta en bak kipfilet. Meng met pesto en gehalveerde cherrytomaatjes. Serveer warm.",
+        "cookingTime": 25,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "8e358bb1-91fc-40c3-b448-439b4b43b075",
+        "title": "Vegetarische Burrito Bowl",
+        "category": "Mexicaans",
+        "ingredients": [
+            {
+                "name": "rijst",
+                "amount": "1 kop"
+            },
+            {
+                "name": "zwarte bonen",
+                "amount": "1 blik"
+            },
+            {
+                "name": "maïs",
+                "amount": "1/2 kop"
+            },
+            {
+                "name": "avocado",
+                "amount": "1"
+            }
+        ],
+        "instructions": "Kook rijst volgens de verpakking. Meng met zwarte bonen, maïs en plakjes avocado.",
+        "cookingTime": 20,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "2ecf3c93-903b-4be9-a434-0b8236828e85",
+        "title": "Aardbeien Spinazie Salade",
+        "category": "Salade",
+        "ingredients": [
+            {
+                "name": "verse spinazie",
+                "amount": "3 koppen"
+            },
+            {
+                "name": "aardbeien",
+                "amount": "1 kop"
+            },
+            {
+                "name": "geitenkaas",
+                "amount": "1/2 kop"
+            },
+            {
+                "name": "balsamico vinaigrette",
+                "amount": "1/4 kop"
+            }
+        ],
+        "instructions": "Meng verse spinazie met plakjes aardbeien en verkruimelde geitenkaas. Besprenkel met balsamico vinaigrette.",
+        "cookingTime": 15,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "a1cfb784-129b-47be-b858-4af82c0d128f",
+        "title": "Kokosnoot Kip Curry",
+        "category": "Curry",
+        "ingredients": [
+            {
+                "name": "kipfilet",
+                "amount": "300g"
+            },
+            {
+                "name": "kokosmelk",
+                "amount": "1 blik"
+            },
+            {
+                "name": "currypasta",
+                "amount": "2 eetlepels"
+            },
+            {
+                "name": "verse koriander",
+                "amount": "1/4 kop"
+            }
+        ],
+        "instructions": "Bak kipfilet en voeg currypasta toe. Giet kokosmelk erbij en laat sudderen. Garneer met verse koriander.",
+        "cookingTime": 35,
+        "difficulty": "Gemakkelijk",
+        "servings": 3
+    },
+    {
+        "id": "ad13c1e9-5ad9-44cb-8a7a-c4893b03ec9f",
+        "title": "Chocolade Banaan Smoothie",
+        "category": "Smoothie",
+        "ingredients": [
+            {
+                "name": "bananen",
+                "amount": "2"
+            },
+            {
+                "name": "melk",
+                "amount": "1 kop"
+            },
+            {
+                "name": "cacaopoeder",
+                "amount": "2 eetlepels"
+            },
+            {
+                "name": "honing",
+                "amount": "1 eetlepel"
+            }
+        ],
+        "instructions": "Blend bananen met melk, cacaopoeder en honing tot een romige smoothie.",
+        "cookingTime": 10,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "ce96342d-64f3-409a-b52e-0300d23c7845",
+        "title": "Gegrilde Groenten Wrap",
+        "category": "Wrap",
+        "ingredients": [
+            {
+                "name": "courgette",
+                "amount": "1"
+            },
+            {
+                "name": "paprika",
+                "amount": "1"
+            },
+            {
+                "name": "aubergine",
+                "amount": "1"
+            },
+            {
+                "name": "hummus",
+                "amount": "1/2 kop"
+            }
+        ],
+        "instructions": "Snijd groenten en grill tot ze zacht zijn. Smeer hummus op een wrap en vul met gegrilde groenten.",
+        "cookingTime": 25,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "c15b14a0-7c06-436f-ba07-cd8f3add4b8e",
+        "title": "Koude Komkommersoep",
+        "category": "Soep",
+        "ingredients": [
+            {
+                "name": "komkommer",
+                "amount": "2"
+            },
+            {
+                "name": "yoghurt",
+                "amount": "1 kop"
+            },
+            {
+                "name": "muntblaadjes",
+                "amount": "1/4 kop"
+            },
+            {
+                "name": "citroensap",
+                "amount": "2 eetlepels"
+            }
+        ],
+        "instructions": "Schil en snijd komkommer. Blend met yoghurt, muntblaadjes en citroensap tot een gladde soep. Koel voor het serveren.",
+        "cookingTime": 15,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": "b71dfec3-bf81-4671-8dd1-0011ae857386",
+        "title": "Griekse Gyros Wrap",
+        "category": "Wrap",
+        "ingredients": [
+            {
+                "name": "gyros (vlees naar keuze)",
+                "amount": "300g"
+            },
+            {
+                "name": "tomaat",
+                "amount": "1"
+            },
+            {
+                "name": "ui",
+                "amount": "1"
+            },
+            {
+                "name": "tzatziki",
+                "amount": "1/2 kop"
+            }
+        ],
+        "instructions": "Bak gyros en vul een wrap met het vlees, plakjes tomaat, ui en een lepel tzatziki.",
+        "cookingTime": 30,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "c3923976-02a0-4933-af8b-ebd92b6d5689",
+        "title": "Lemon Blueberry Muffins",
+        "category": "Bakken",
+        "ingredients": [
+            {
+                "name": "bloem",
+                "amount": "2 koppen"
+            },
+            {
+                "name": "suiker",
+                "amount": "1 kop"
+            },
+            {
+                "name": "bakpoeder",
+                "amount": "1 eetlepel"
+            },
+            {
+                "name": "citroenrasp",
+                "amount": "2 eetlepels"
+            },
+            {
+                "name": "bosbessen",
+                "amount": "1 kop"
+            },
+            {
+                "name": "eieren",
+                "amount": "2"
+            },
+            {
+                "name": "melk",
+                "amount": "1 kop"
+            },
+            {
+                "name": "boter (gesmolten)",
+                "amount": "1/2 kop"
+            }
+        ],
+        "instructions": "Meng droge ingrediënten. Voeg eieren, melk en gesmolten boter toe. Vouw bosbessen in. Bak in muffinvormpjes.",
+        "cookingTime": 25,
+        "difficulty": "Gemiddeld",
+        "servings": 12
+    },
+    {
+        "id": "df7553a3-3b88-45ef-8e0b-85626674336b",
+        "title": "Teriyaki Zalm",
+        "category": "Vis",
+        "ingredients": [
+            {
+                "name": "zalmfilets",
+                "amount": "4"
+            },
+            {
+                "name": "teriyakisaus",
+                "amount": "1/2 kop"
+            },
+            {
+                "name": "knoflookpoeder",
+                "amount": "1/2 theelepel"
+            },
+            {
+                "name": "verse gember (geraspt)",
+                "amount": "1 theelepel"
+            }
+        ],
+        "instructions": "Marineer zalmfilets in teriyakisaus, knoflookpoeder en geraspte gember. Bak of grill tot de zalm gaar is.",
+        "cookingTime": 20,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": "da1414ed-556a-44cf-95cc-8d93fa7213df",
+        "title": "Caprese Salade",
+        "category": "Salade",
+        "ingredients": [
+            {
+                "name": "tomaat",
+                "amount": "3"
+            },
+            {
+                "name": "verse mozzarella",
+                "amount": "1 bol"
+            },
+            {
+                "name": "verse basilicumblaadjes",
+                "amount": "1 kop"
+            },
+            {
+                "name": "balsamico glazuur",
+                "amount": "2 eetlepels"
+            },
+            {
+                "name": "olijfolie",
+                "amount": "2 eetlepels"
+            }
+        ],
+        "instructions": "Snijd tomaten en mozzarella in plakjes. Leg afwisselend op een schaal. Bestrooi met basilicum. Besprenkel met balsamico glazuur en olijfolie.",
+        "cookingTime": 15,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "3c36bf9d-d53c-40d4-8c03-8744c8a53f83",
+        "title": "Kip Quesadilla",
+        "category": "Mexicaans",
+        "ingredients": [
+            {
+                "name": "kipfilet",
+                "amount": "300g"
+            },
+            {
+                "name": "taco kruidenmix",
+                "amount": "1 zakje"
+            },
+            {
+                "name": "bloemtortilla's",
+                "amount": "4"
+            },
+            {
+                "name": "cheddar kaas",
+                "amount": "1 kop"
+            }
+        ],
+        "instructions": "Bak kipfilet en kruid met tacokruiden. Vul tortilla's met kip en cheddar. Bak tot de kaas smelt.",
+        "cookingTime": 30,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "7be869bb-1464-4b6d-9454-711712f29cfe",
+        "title": "Pittige Pompoensoep",
+        "category": "Soep",
+        "ingredients": [
+            {
+                "name": "pompoen",
+                "amount": "1"
+            },
+            {
+                "name": "ui",
+                "amount": "1"
+            },
+            {
+                "name": "rode currypasta",
+                "amount": "2 eetlepels"
+            },
+            {
+                "name": "kokosmelk",
+                "amount": "1 blik"
+            }
+        ],
+        "instructions": "Bak gesneden pompoen en ui in rode currypasta. Voeg kokosmelk toe en kook tot de pompoen zacht is. Pureer tot een gladde soep.",
+        "cookingTime": 35,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": "763a7910-03a3-4ba4-a17a-0de5668b322b",
+        "title": "Broccoli Kaas Ovenschotel",
+        "category": "Ovenschotel",
+        "ingredients": [
+            {
+                "name": "broccoli",
+                "amount": "1"
+            },
+            {
+                "name": "cheddar kaas",
+                "amount": "1 kop"
+            },
+            {
+                "name": "melk",
+                "amount": "1 kop"
+            },
+            {
+                "name": "bloem",
+                "amount": "2 eetlepels"
+            }
+        ],
+        "instructions": "Stoom broccoli en leg in een ovenschaal. Maak een kaassaus van gesmolten boter, bloem, melk en cheddar. Giet over de broccoli en bak in de oven.",
+        "cookingTime": 30,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": "27a5217f-7a1b-4533-b874-267edfee14db",
+        "title": "Aardappel Gnocchi met Pesto",
+        "category": "Pasta",
+        "ingredients": [
+            {
+                "name": "aardappelgnocchi",
+                "amount": "500g"
+            },
+            {
+                "name": "pesto",
+                "amount": "1/2 kop"
+            },
+            {
+                "name": "verse Parmezaanse kaas",
+                "amount": "1/4 kop"
+            }
+        ],
+        "instructions": "Kook aardappelgnocchi volgens de verpakking. Meng met pesto en bestrooi met verse Parmezaanse kaas.",
+        "cookingTime": 15,
+        "difficulty": "Gemakkelijk",
+        "servings": 3
+    },
+    {
+        "id": "34ed7a27-c6d8-458b-8591-b00bef0a65f7",
+        "title": "Griekse Kofta",
+        "category": "Gehakt",
+        "ingredients": [
+            {
+                "name": "lamsgehakt",
+                "amount": "500g"
+            },
+            {
+                "name": "ui",
+                "amount": "1"
+            },
+            {
+                "name": "komijnpoeder",
+                "amount": "1 theelepel"
+            },
+            {
+                "name": "verse peterselie (gehakt)",
+                "amount": "2 eetlepels"
+            }
+        ],
+        "instructions": "Meng lamsgehakt met fijngehakte ui, komijnpoeder en gehakte peterselie. Vorm tot ballen en bak of grill.",
+        "cookingTime": 25,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": "7e94f2de-b51e-4114-96d1-daba1d4063f4",
+        "title": "Perzik Yoghurt Parfait",
+        "category": "Dessert",
+        "ingredients": [
+            {
+                "name": "verse perziken",
+                "amount": "2"
+            },
+            {
+                "name": "yoghurt",
+                "amount": "1 kop"
+            },
+            {
+                "name": "granola",
+                "amount": "1/2 kop"
+            },
+            {
+                "name": "honing",
+                "amount": "2 eetlepels"
+            }
+        ],
+        "instructions": "Schil en snijd perziken. Bouw laagjes in glas met perzik, yoghurt en granola. Drizzle honing over de bovenkant.",
+        "cookingTime": 10,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "f4b66a73-7938-452e-9374-94773a90e118",
+        "title": "Vegetarische Tomaten Risotto",
+        "category": "Risotto",
+        "ingredients": [
+            {
+                "name": "arborio rijst",
+                "amount": "1 kop"
+            },
+            {
+                "name": "tomaten",
+                "amount": "4"
+            },
+            {
+                "name": "verse basilicumblaadjes",
+                "amount": "1/4 kop"
+            },
+            {
+                "name": "Parmezaanse kaas",
+                "amount": "1/2 kop"
+            }
+        ],
+        "instructions": "Bak arborio rijst in olijfolie. Voeg gehakte tomaten toe. Voeg bouillon toe en kook tot de rijst gaar is. Roer basilicum en Parmezaanse kaas erdoor.",
+        "cookingTime": 30,
+        "difficulty": "Gemiddeld",
+        "servings": 3
+    },
+    {
+        "id": "11211d48-2dd0-4094-861f-4031769d8c34",
+        "title": "Knoflook Garnalen Linguine",
+        "category": "Pasta",
+        "ingredients": [
+            {
+                "name": "linguine",
+                "amount": "300g"
+            },
+            {
+                "name": "garnalen",
+                "amount": "250g"
+            },
+            {
+                "name": "knoflook (fijngehakt)",
+                "amount": "4 teentjes"
+            },
+            {
+                "name": "olijfolie",
+                "amount": "3 eetlepels"
+            },
+            {
+                "name": "verse peterselie (gehakt)",
+                "amount": "1/4 kop"
+            }
+        ],
+        "instructions": "Kook linguine en bak garnalen in knoflook en olijfolie. Meng met gehakte peterselie en serveer warm.",
+        "cookingTime": 25,
+        "difficulty": "Gemakkelijk",
+        "servings": 3
+    },
+    {
+        "id": "39c68184-a014-4654-ae77-cc87fe8d90b3",
+        "title": "Biefstuk met Champignonsaus",
+        "category": "Vlees",
+        "ingredients": [
+            {
+                "name": "biefstukken",
+                "amount": "2"
+            },
+            {
+                "name": "champignons (in plakjes)",
+                "amount": "200g"
+            },
+            {
+                "name": "uien (gesneden)",
+                "amount": "1"
+            },
+            {
+                "name": "knoflook (fijngehakt)",
+                "amount": "2 teentjes"
+            },
+            {
+                "name": "room",
+                "amount": "1/2 kop"
+            }
+        ],
+        "instructions": "Bak biefstukken naar wens. In dezelfde pan, bak champignons, ui en knoflook. Voeg room toe en laat sudderen tot de saus indikt.",
+        "cookingTime": 30,
+        "difficulty": "Gemiddeld",
+        "servings": 2
+    },
+    {
+        "id": "2b92fa29-2fe4-4db4-864c-8d1c0880fd29",
+        "title": "Quinoa Salade met Avocado",
+        "category": "Salade",
+        "ingredients": [
+            {
+                "name": "quinoa",
+                "amount": "1 kop"
+            },
+            {
+                "name": "avocado",
+                "amount": "1"
+            },
+            {
+                "name": "kerstomaatjes (gehalveerd)",
+                "amount": "1 kop"
+            },
+            {
+                "name": "verse koriander (gehakt)",
+                "amount": "1/4 kop"
+            }
+        ],
+        "instructions": "Kook quinoa volgens de verpakking. Meng met blokjes avocado, kerstomaatjes en gehakte koriander.",
+        "cookingTime": 20,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "285b1cb9-e65b-476c-8bab-4a1c13c46b42",
+        "title": "Gebraden Kip met Rozemarijn",
+        "category": "Gevogelte",
+        "ingredients": [
+            {
+                "name": "hele kip",
+                "amount": "1"
+            },
+            {
+                "name": "rozemarijn (gehakt)",
+                "amount": "2 eetlepels"
+            },
+            {
+                "name": "citroen (in plakjes)",
+                "amount": "1"
+            },
+            {
+                "name": "olijfolie",
+                "amount": "3 eetlepels"
+            }
+        ],
+        "instructions": "Wrijf kip in met rozemarijn, zout en peper. Vul met plakjes citroen. Bak in de oven tot goudbruin en gaar.",
+        "cookingTime": 75,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": "364aafe3-8fca-413f-b974-011aa719a2cb",
+        "title": "Tomaten Basilicum Bruschetta",
+        "category": "Voorgerecht",
+        "ingredients": [
+            {
+                "name": "stokbrood",
+                "amount": "1"
+            },
+            {
+                "name": "rijpe tomaten (in blokjes)",
+                "amount": "4"
+            },
+            {
+                "name": "verse basilicum (gehakt)",
+                "amount": "1/4 kop"
+            },
+            {
+                "name": "knoflook (fijngehakt)",
+                "amount": "2 teentjes"
+            }
+        ],
+        "instructions": "Rooster stukjes stokbrood. Meng tomaten, basilicum en knoflook. Schep op het geroosterde brood.",
+        "cookingTime": 15,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": "efbe79d2-42e0-4662-9ff0-fa9e1b6141e0",
+        "title": "Zoete Chili Kippenvleugels",
+        "category": "Gevogelte",
+        "ingredients": [
+            {
+                "name": "kippenvleugels",
+                "amount": "500g"
+            },
+            {
+                "name": "zoete chilisaus",
+                "amount": "1/2 kop"
+            },
+            {
+                "name": "sojasaus",
+                "amount": "2 eetlepels"
+            },
+            {
+                "name": "sesamzaadjes (geroosterd)",
+                "amount": "1 eetlepel"
+            }
+        ],
+        "instructions": "Bak kippenvleugels in oven tot knapperig. Meng met zoete chilisaus en sojasaus. Bestrooi met geroosterde sesamzaadjes.",
+        "cookingTime": 40,
+        "difficulty": "Gemakkelijk",
+        "servings": 3
+    },
+    {
+        "id": "a4305a22-a98a-4a8c-89dd-5b6bee68a929",
+        "title": "Ratatouille",
+        "category": "Bijgerecht",
+        "ingredients": [
+            {
+                "name": "aubergine",
+                "amount": "1"
+            },
+            {
+                "name": "courgette",
+                "amount": "1"
+            },
+            {
+                "name": "rode paprika",
+                "amount": "1"
+            },
+            {
+                "name": "tomaten",
+                "amount": "2"
+            },
+            {
+                "name": "ui",
+                "amount": "1"
+            }
+        ],
+        "instructions": "Snijd groenten in dunne plakjes. Leg afwisselend in een ovenschaal. Bak tot de groenten zacht zijn.",
+        "cookingTime": 45,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "29571821-2e97-4016-86cc-5b6bdd7ddc06",
+        "title": "Chocolade Avocado Mousse",
+        "category": "Dessert",
+        "ingredients": [
+            {
+                "name": "rijpe avocado",
+                "amount": "2"
+            },
+            {
+                "name": "cacaopoeder",
+                "amount": "1/4 kop"
+            },
+            {
+                "name": "honing",
+                "amount": "1/4 kop"
+            },
+            {
+                "name": "vanille-extract",
+                "amount": "1 theelepel"
+            }
+        ],
+        "instructions": "Pureer avocado's met cacaopoeder, honing en vanille-extract tot een gladde mousse. Koel voor het serveren.",
+        "cookingTime": 15,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "ba501bcf-3ab3-4b13-bc6f-59a1ec458e5d",
+        "title": "Gegrilde Zalm met Citroen Dille Saus",
+        "category": "Vis",
+        "ingredients": [
+            {
+                "name": "zalmfilets",
+                "amount": "2"
+            },
+            {
+                "name": "citroen (sap en rasp)",
+                "amount": "1"
+            },
+            {
+                "name": "verse dille (gehakt)",
+                "amount": "2 eetlepels"
+            },
+            {
+                "name": "olijfolie",
+                "amount": "3 eetlepels"
+            }
+        ],
+        "instructions": "Grill zalmfilets met citroenrasp en gehakte dille. Serveer met een saus van citroensap en olijfolie.",
+        "cookingTime": 20,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "edd647f1-f267-4ad6-bcf7-e582255ffa74",
+        "title": "Pompoen Cheesecake",
+        "category": "Dessert",
+        "ingredients": [
+            {
+                "name": "pompoenpuree",
+                "amount": "1 kop"
+            },
+            {
+                "name": "roomkaas",
+                "amount": "250g"
+            },
+            {
+                "name": "suiker",
+                "amount": "3/4 kop"
+            },
+            {
+                "name": "pompoentaartkruiden",
+                "amount": "1 theelepel"
+            }
+        ],
+        "instructions": "Mix pompoenpuree met roomkaas, suiker en pompoentaartkruiden. Giet in een taartvorm en bak tot het midden is gezet.",
+        "cookingTime": 60,
+        "difficulty": "Gemiddeld",
+        "servings": 8
+    },
+    {
+        "id": "193295e0-c424-4e83-b6c5-03884dfdfaa5",
+        "title": "Griekse Salade",
+        "category": "Salade",
+        "ingredients": [
+            {
+                "name": "komkommer",
+                "amount": "1"
+            },
+            {
+                "name": "tomaat",
+                "amount": "2"
+            },
+            {
+                "name": "zwarte olijven",
+                "amount": "1/2 kop"
+            },
+            {
+                "name": "feta kaas",
+                "amount": "1/2 kop"
+            },
+            {
+                "name": "rode ui (in dunne plakjes)",
+                "amount": "1/4 kop"
+            },
+            {
+                "name": "extra vierge olijfolie",
+                "amount": "3 eetlepels"
+            }
+        ],
+        "instructions": "Snijd komkommer, tomaat en feta kaas in blokjes. Voeg zwarte olijven en rode ui toe. Besprenkel met olijfolie.",
+        "cookingTime": 15,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "3c5b3549-e910-40ed-965f-745af77d971c",
+        "title": "Kippenpenne Alfredo",
+        "category": "Pasta",
+        "ingredients": [
+            {
+                "name": "penne pasta",
+                "amount": "250g"
+            },
+            {
+                "name": "kipfilet (in blokjes)",
+                "amount": "300g"
+            },
+            {
+                "name": "room",
+                "amount": "1 kop"
+            },
+            {
+                "name": "Parmezaanse kaas (geraspt)",
+                "amount": "1/2 kop"
+            }
+        ],
+        "instructions": "Kook penne pasta en bak kipfilet. Meng met room en geraspte Parmezaanse kaas. Verhit tot de saus is ingedikt.",
+        "cookingTime": 25,
+        "difficulty": "Gemakkelijk",
+        "servings": 3
+    },
+    {
+        "id": "91406a52-f795-4f9f-b969-0cbe0f3875ba",
+        "title": "Gegrilde Asperges",
+        "category": "Bijgerecht",
+        "ingredients": [
+            {
+                "name": "groene asperges",
+                "amount": "1 bos"
+            },
+            {
+                "name": "olijfolie",
+                "amount": "2 eetlepels"
+            },
+            {
+                "name": "zout en peper naar smaak"
+            }
+        ],
+        "instructions": "Snijd harde uiteinden van asperges. Marineer met olijfolie, zout en peper. Grill tot ze gaar zijn.",
+        "cookingTime": 15,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "a536d41d-1a26-4f1a-a565-4659608ec197",
+        "title": "Citroen Knoflook Kip",
+        "category": "Gevogelte",
+        "ingredients": [
+            {
+                "name": "kipdijfilets",
+                "amount": "4"
+            },
+            {
+                "name": "citroensap",
+                "amount": "1/4 kop"
+            },
+            {
+                "name": "knoflook (fijngehakt)",
+                "amount": "3 teentjes"
+            },
+            {
+                "name": "verse tijm (gehakt)",
+                "amount": "1 eetlepel"
+            }
+        ],
+        "instructions": "Meng kipdijfilets met citroensap, fijngehakte knoflook en gehakte verse tijm. Bak tot de kip gaar is.",
+        "cookingTime": 30,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": "e791362b-9d35-495b-8827-3b8da36742aa",
+        "title": "Couscous met Geroosterde Groenten",
+        "category": "Bijgerecht",
+        "ingredients": [
+            {
+                "name": "couscous",
+                "amount": "1 kop"
+            },
+            {
+                "name": "courgette (in blokjes)",
+                "amount": "1"
+            },
+            {
+                "name": "paprika (in reepjes)",
+                "amount": "1"
+            },
+            {
+                "name": "cherrytomaatjes",
+                "amount": "1 kop"
+            },
+            {
+                "name": "olijfolie",
+                "amount": "2 eetlepels"
+            }
+        ],
+        "instructions": "Bereid couscous volgens de verpakking. Rooster courgette, paprika en cherrytomaatjes in olijfolie. Meng met couscous.",
+        "cookingTime": 20,
+        "difficulty": "Gemakkelijk",
+        "servings": 3
+    },
+    {
+        "id": "d8533001-54af-490f-aa87-7ddf01b4e9b5",
+        "title": "Romige Champignon Risotto",
+        "category": "Risotto",
+        "ingredients": [
+            {
+                "name": "arborio rijst",
+                "amount": "1 kop"
+            },
+            {
+                "name": "champignons (in plakjes)",
+                "amount": "200g"
+            },
+            {
+                "name": "ui (fijngesneden)",
+                "amount": "1"
+            },
+            {
+                "name": "witte wijn",
+                "amount": "1/2 kop"
+            },
+            {
+                "name": "kippenbouillon",
+                "amount": "3 koppen"
+            }
+        ],
+        "instructions": "Bak arborio rijst en ui in olijfolie. Voeg witte wijn toe en laat absorberen. Voeg geleidelijk bouillon toe tot de rijst gaar is. Roer champignons erdoor en laat sudderen.",
+        "cookingTime": 30,
+        "difficulty": "Gemiddeld",
+        "servings": 3
+    },
+    {
+        "id": "b573c0c9-e7f1-4b02-aef3-57299f3ae1a8",
+        "title": "Kip Caesar Wrap",
+        "category": "Wrap",
+        "ingredients": [
+            {
+                "name": "kippendijen (gekookt en in reepjes)",
+                "amount": "300g"
+            },
+            {
+                "name": "romaine sla (gesneden)",
+                "amount": "2 koppen"
+            },
+            {
+                "name": "Caesardressing",
+                "amount": "1/2 kop"
+            },
+            {
+                "name": "Parmezaanse kaas (geraspt)",
+                "amount": "1/4 kop"
+            }
+        ],
+        "instructions": "Leg kippendijreepjes, gesneden romaine sla, Caesardressing en geraspte Parmezaanse kaas op een wrap. Vouw dicht en serveer.",
+        "cookingTime": 15,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "26055535-1300-4c01-9208-61725ba282d6",
+        "title": "Thaise Kippensoep",
+        "category": "Soep",
+        "ingredients": [
+            {
+                "name": "kippenbouillon",
+                "amount": "4 koppen"
+            },
+            {
+                "name": "kipfilet (in plakjes)",
+                "amount": "300g"
+            },
+            {
+                "name": "kokosmelk",
+                "amount": "1 blik"
+            },
+            {
+                "name": "verse koriander (gehakt)",
+                "amount": "1/4 kop"
+            }
+        ],
+        "instructions": "Breng kippenbouillon aan de kook. Voeg plakjes kipfilet toe en kook tot gaar. Voeg kokosmelk toe en garneer met gehakte verse koriander.",
+        "cookingTime": 25,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": "deb6e665-2a1f-4327-b5f8-a68906799101",
+        "title": "Vegetarische Lasagne",
+        "category": "Ovenschotel",
+        "ingredients": [
+            {
+                "name": "lasagnevellen",
+                "amount": "9"
+            },
+            {
+                "name": "spinazie (vers of bevroren)",
+                "amount": "300g"
+            },
+            {
+                "name": "ricotta kaas",
+                "amount": "1 kop"
+            },
+            {
+                "name": "tomatensaus",
+                "amount": "2 koppen"
+            }
+        ],
+        "instructions": "Bak spinazie en meng met ricotta. Bouw lasagne met afwisselende lagen saus en vellen. Bak in de oven tot bubbels verschijnen.",
+        "cookingTime": 40,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": "037670fb-1327-4e22-a5d9-a045b2ba3b6d",
+        "title": "Aziatische Zalm Noedels",
+        "category": "Vis",
+        "ingredients": [
+            {
+                "name": "zalmfilets",
+                "amount": "2"
+            },
+            {
+                "name": "sojasaus",
+                "amount": "3 eetlepels"
+            },
+            {
+                "name": "gember (geraspt)",
+                "amount": "1 eetlepel"
+            },
+            {
+                "name": "rijstnoedels",
+                "amount": "200g"
+            }
+        ],
+        "instructions": "Bak zalmfilets met sojasaus en geraspte gember. Kook rijstnoedels volgens de verpakking en serveer met zalm.",
+        "cookingTime": 25,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "05910947-742b-459c-88d0-030a1ab39f4f",
+        "title": "Peren Walnoot Salade",
+        "category": "Salade",
+        "ingredients": [
+            {
+                "name": "peren (in plakjes)",
+                "amount": "2"
+            },
+            {
+                "name": "walnoten (geroosterd)",
+                "amount": "1/2 kop"
+            },
+            {
+                "name": "gemengde groene bladsla",
+                "amount": "4 koppen"
+            },
+            {
+                "name": "geitenkaas (verkruimeld)",
+                "amount": "1/2 kop"
+            }
+        ],
+        "instructions": "Combineer plakjes peer, geroosterde walnoten, gemengde groene bladsla en verkruimelde geitenkaas in een grote kom.",
+        "cookingTime": 15,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "c4d5e2da-e1f3-481b-a550-fd6dc3a33650",
+        "title": "Pittige Kippenwraps",
+        "category": "Wrap",
+        "ingredients": [
+            {
+                "name": "kippenborsten (gekookt en versnipperd)",
+                "amount": "300g"
+            },
+            {
+                "name": "sriracha saus",
+                "amount": "2 eetlepels"
+            },
+            {
+                "name": "groene paprika (in reepjes)",
+                "amount": "1"
+            },
+            {
+                "name": "ijsbergsla (fijngesneden)",
+                "amount": "2 koppen"
+            }
+        ],
+        "instructions": "Meng versnipperde kip met sriracha saus. Leg op wraps met reepjes groene paprika en fijngesneden ijsbergsla.",
+        "cookingTime": 20,
+        "difficulty": "Gemakkelijk",
+        "servings": 3
+    },
+    {
+        "id": "72f3e5a7-846a-4e7b-9f89-66aceef4680a",
+        "title": "Vegetarische Pad Thai",
+        "category": "Aziatisch",
+        "ingredients": [
+            {
+                "name": "rijstnoedels",
+                "amount": "250g"
+            },
+            {
+                "name": "tofu (in blokjes)",
+                "amount": "200g"
+            },
+            {
+                "name": "taugé",
+                "amount": "1 kop"
+            },
+            {
+                "name": "pinda's (gehakt)",
+                "amount": "1/4 kop"
+            }
+        ],
+        "instructions": "Kook rijstnoedels volgens de verpakking. Roerbak tofu en voeg taugé toe. Meng met noedels en garneer met gehakte pinda's.",
+        "cookingTime": 30,
+        "difficulty": "Gemakkelijk",
+        "servings": 3
+    },
+    {
+        "id": "9d1a0a0a-fb86-41f9-8c2b-b498195a3a76",
+        "title": "Rode Linzen Curry",
+        "category": "Curry",
+        "ingredients": [
+            {
+                "name": "rode linzen",
+                "amount": "1 kop"
+            },
+            {
+                "name": "ui (gesneden)",
+                "amount": "1"
+            },
+            {
+                "name": "tomaten (in blokjes)",
+                "amount": "2"
+            },
+            {
+                "name": "currypasta",
+                "amount": "2 eetlepels"
+            }
+        ],
+        "instructions": "Kook rode linzen volgens de verpakking. Bak ui in olie, voeg currypasta toe en roerbak. Voeg tomaten en gekookte linzen toe.",
+        "cookingTime": 25,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": "351640cd-1ca3-48b1-b1d5-01f8762708ff",
+        "title": "Appel Kaneel Havermout",
+        "category": "Ontbijt",
+        "ingredients": [
+            {
+                "name": "havermout",
+                "amount": "1 kop"
+            },
+            {
+                "name": "melk",
+                "amount": "1 1/2 kop"
+            },
+            {
+                "name": "appel (in blokjes)",
+                "amount": "1"
+            },
+            {
+                "name": "kaneel",
+                "amount": "1 theelepel"
+            }
+        ],
+        "instructions": "Kook havermout in melk volgens de verpakking. Voeg blokjes appel toe en bestrooi met kaneel.",
+        "cookingTime": 10,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "26013ee3-0bb8-4661-8d69-75e53ee9d76b",
+        "title": "Geroosterde Groenten Quiche",
+        "category": "Hartige Taart",
+        "ingredients": [
+            {
+                "name": "bladerdeeg",
+                "amount": "1 vel"
+            },
+            {
+                "name": "courgette (in plakjes)",
+                "amount": "1"
+            },
+            {
+                "name": "cherrytomaatjes (gehalveerd)",
+                "amount": "1 kop"
+            },
+            {
+                "name": "ui (gesneden)",
+                "amount": "1"
+            },
+            {
+                "name": "eieren",
+                "amount": "3"
+            },
+            {
+                "name": "melk",
+                "amount": "1 kop"
+            }
+        ],
+        "instructions": "Bekleed een taartvorm met bladerdeeg. Verdeel courgette, cherrytomaatjes en ui erover. Klop eieren en melk en giet over de groenten. Bak tot de quiche stevig is.",
+        "cookingTime": 40,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": "ea431539-d3dc-4739-8d1c-6f4fee78cfb6",
+        "title": "Honing Mosterd Kip",
+        "category": "Gevogelte",
+        "ingredients": [
+            {
+                "name": "kippenbouten",
+                "amount": "4"
+            },
+            {
+                "name": "honing",
+                "amount": "1/4 kop"
+            },
+            {
+                "name": "Dijon mosterd",
+                "amount": "2 eetlepels"
+            },
+            {
+                "name": "knoflookpoeder",
+                "amount": "1 theelepel"
+            }
+        ],
+        "instructions": "Meng honing, Dijon mosterd en knoflookpoeder. Bestrijk kippenbouten met het mengsel. Bak in de oven tot de kip gaar is.",
+        "cookingTime": 35,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": "c1537c38-f43e-4cb4-b75f-e26450a62a45",
+        "title": "Caprese Salade",
+        "category": "Salade",
+        "ingredients": [
+            {
+                "name": "tomaat (in plakjes)",
+                "amount": "2"
+            },
+            {
+                "name": "buffelmozzarella (in plakjes)",
+                "amount": "1 bol"
+            },
+            {
+                "name": "verse basilicumblaadjes",
+                "amount": "1/4 kop"
+            },
+            {
+                "name": "balsamico azijn",
+                "amount": "2 eetlepels"
+            }
+        ],
+        "instructions": "Leg plakjes tomaat en mozzarella afwisselend op een schaal. Strooi verse basilicumblaadjes erover en besprenkel met balsamico azijn.",
+        "cookingTime": 10,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "111d3f1e-1f74-4cb3-a963-c5a83d7925f0",
+        "title": "Limoen Koriander Rijst",
+        "category": "Bijgerecht",
+        "ingredients": [
+            {
+                "name": "witte rijst",
+                "amount": "1 kop"
+            },
+            {
+                "name": "limoensap",
+                "amount": "2 eetlepels"
+            },
+            {
+                "name": "verse koriander (gehakt)",
+                "amount": "1/4 kop"
+            },
+            {
+                "name": "zout naar smaak"
+            }
+        ],
+        "instructions": "Kook witte rijst volgens de verpakking. Meng met limoensap, gehakte verse koriander en zout.",
+        "cookingTime": 15,
+        "difficulty": "Gemakkelijk",
+        "servings": 3
+    },
+    {
+        "id": "41e40afc-bdf9-444b-ba6d-97f8b90b73f1",
+        "title": "Garnalen Avocado Tacos",
+        "category": "Mexicaans",
+        "ingredients": [
+            {
+                "name": "garnalen (gepeld en schoongemaakt)",
+                "amount": "250g"
+            },
+            {
+                "name": "avocado (in plakjes)",
+                "amount": "1"
+            },
+            {
+                "name": "koolsla",
+                "amount": "1 kop"
+            },
+            {
+                "name": "maïstortilla's",
+                "amount": "8"
+            }
+        ],
+        "instructions": "Bak garnalen tot ze gaar zijn. Vul maïstortilla's met garnalen, plakjes avocado en koolsla.",
+        "cookingTime": 20,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": "55b3948e-c701-4744-9167-be9ea2784b65",
+        "title": "Pittige Pompoensoep",
+        "category": "Soep",
+        "ingredients": [
+            {
+                "name": "pompoen (in blokjes)",
+                "amount": "4 koppen"
+            },
+            {
+                "name": "ui (gesneden)",
+                "amount": "1"
+            },
+            {
+                "name": "groentebouillon",
+                "amount": "4 koppen"
+            },
+            {
+                "name": "chilipoeder",
+                "amount": "1 theelepel"
+            }
+        ],
+        "instructions": "Kook pompoenblokjes en ui in groentebouillon tot zacht. Pureer met een staafmixer en voeg chilipoeder toe. Verwarm voor het serveren.",
+        "cookingTime": 30,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": "de9dc68d-6835-4525-b63f-b323bc200db7",
+        "title": "Krokante Quinoa Nuggets",
+        "category": "Vegetarisch",
+        "ingredients": [
+            {
+                "name": "gekookte quinoa",
+                "amount": "2 koppen"
+            },
+            {
+                "name": "paneermeel",
+                "amount": "1/2 kop"
+            },
+            {
+                "name": "geraspte kaas",
+                "amount": "1/2 kop"
+            },
+            {
+                "name": "eieren",
+                "amount": "2"
+            }
+        ],
+        "instructions": "Meng gekookte quinoa met paneermeel, geraspte kaas en eieren. Vorm tot nuggets en bak tot ze goudbruin en krokant zijn.",
+        "cookingTime": 25,
+        "difficulty": "Gemakkelijk",
+        "servings": 3
+    },
+    {
+        "id": "5ce4b817-1e55-4814-b5ea-f5b090c1dc92",
+        "title": "Aardappel Prei Gratin",
+        "category": "Ovenschotel",
+        "ingredients": [
+            {
+                "name": "aardappelen (in dunne plakjes)",
+                "amount": "4"
+            },
+            {
+                "name": "prei (in ringen)",
+                "amount": "2"
+            },
+            {
+                "name": "room",
+                "amount": "1 kop"
+            },
+            {
+                "name": "geraspte Gruyère kaas",
+                "amount": "1/2 kop"
+            }
+        ],
+        "instructions": "Schik aardappelplakjes en preiringen in een ovenschaal. Meng room en geraspte Gruyère kaas en giet over de aardappelen en prei. Bak tot de aardappelen gaar zijn en de bovenkant goudbruin is.",
+        "cookingTime": 45,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": "0853195b-d75f-493a-94ff-91692ddf3c9c",
+        "title": "Mango Kokos Smoothie",
+        "category": "Smoothie",
+        "ingredients": [
+            {
+                "name": "mango (in blokjes)",
+                "amount": "1"
+            },
+            {
+                "name": "kokosmelk",
+                "amount": "1 kop"
+            },
+            {
+                "name": "Griekse yoghurt",
+                "amount": "1/2 kop"
+            },
+            {
+                "name": "honing naar smaak"
+            }
+        ],
+        "instructions": "Blend mango, kokosmelk, Griekse yoghurt en honing tot een gladde smoothie. Serveer gekoeld.",
+        "cookingTime": 10,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "d4b87fde-2a3e-4918-b376-0d783bc10dd9",
+        "title": "Spinazie Feta Pannenkoeken",
+        "category": "Ontbijt",
+        "ingredients": [
+            {
+                "name": "pannenkoekenmix",
+                "amount": "2 koppen"
+            },
+            {
+                "name": "verse spinazie (fijngehakt)",
+                "amount": "1 kop"
+            },
+            {
+                "name": "feta kaas (verkruimeld)",
+                "amount": "1/2 kop"
+            },
+            {
+                "name": "eieren",
+                "amount": "2"
+            }
+        ],
+        "instructions": "Meng pannenkoekenmix met fijngehakte spinazie, verkruimelde feta kaas en eieren. Bak tot goudbruin.",
+        "cookingTime": 20,
+        "difficulty": "Gemakkelijk",
+        "servings": 3
+    },
+    {
+        "id": "687e1bed-268d-4650-bbd3-ee4c7b9a32d2",
+        "title": "Teriyaki Zalm Bowl",
+        "category": "Aziatisch",
+        "ingredients": [
+            {
+                "name": "zalmfilets",
+                "amount": "2"
+            },
+            {
+                "name": "teriyakisaus",
+                "amount": "1/4 kop"
+            },
+            {
+                "name": "komkommer (in plakjes)",
+                "amount": "1"
+            },
+            {
+                "name": "avocado (in blokjes)",
+                "amount": "1"
+            }
+        ],
+        "instructions": "Grill zalmfilets en glazuur met teriyakisaus. Serveer bovenop rijst en garneer met plakjes komkommer en blokjes avocado.",
+        "cookingTime": 25,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "6d25132e-2e5d-4417-9c23-54763960adf2",
+        "title": "Kip Broccoli Roerbak",
+        "category": "Roerbak",
+        "ingredients": [
+            {
+                "name": "kipfilet (in blokjes)",
+                "amount": "300g"
+            },
+            {
+                "name": "broccoli (in roosjes)",
+                "amount": "2 koppen"
+            },
+            {
+                "name": "sojasaus",
+                "amount": "2 eetlepels"
+            },
+            {
+                "name": "gember (geraspt)",
+                "amount": "1 eetlepel"
+            }
+        ],
+        "instructions": "Roerbak kipfiletblokjes tot ze gaar zijn. Voeg broccoli, sojasaus en geraspte gember toe. Roerbak tot de broccoli knapperig is.",
+        "cookingTime": 20,
+        "difficulty": "Gemakkelijk",
+        "servings": 3
+    },
+    {
+        "id": "070c5aed-7872-4d2a-af23-af9aaa089525",
+        "title": "Cranberry Amandel Energieballen",
+        "category": "Snack",
+        "ingredients": [
+            {
+                "name": "gedroogde cranberries",
+                "amount": "1/2 kop"
+            },
+            {
+                "name": "amandelen",
+                "amount": "1/2 kop"
+            },
+            {
+                "name": "honing",
+                "amount": "2 eetlepels"
+            },
+            {
+                "name": "havermout",
+                "amount": "1/4 kop"
+            }
+        ],
+        "instructions": "Mix gedroogde cranberries, amandelen, honing en havermout in een keukenmachine. Rol in ballen en koel in de koelkast.",
+        "cookingTime": 15,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": "19b5c328-3334-4a18-9401-b37be372cb42",
+        "title": "Italiaanse Gehaktballen",
+        "category": "Vlees",
+        "ingredients": [
+            {
+                "name": "gehakt (half-om-half)",
+                "amount": "500g"
+            },
+            {
+                "name": "paneermeel",
+                "amount": "1/2 kop"
+            },
+            {
+                "name": "Parmezaanse kaas (geraspt)",
+                "amount": "1/4 kop"
+            },
+            {
+                "name": "verse peterselie (gehakt)",
+                "amount": "2 eetlepels"
+            }
+        ],
+        "instructions": "Meng gehakt met paneermeel, geraspte Parmezaanse kaas en gehakte verse peterselie. Rol in gehaktballen en bak tot ze gaar zijn.",
+        "cookingTime": 30,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": "f2e6fad1-df3d-4300-8222-6f68c97cedd9",
+        "title": "Geroosterde Groenten Couscous",
+        "category": "Bijgerecht",
+        "ingredients": [
+            {
+                "name": "couscous",
+                "amount": "1 kop"
+            },
+            {
+                "name": "paprika (in blokjes)",
+                "amount": "1"
+            },
+            {
+                "name": "courgette (in blokjes)",
+                "amount": "1"
+            },
+            {
+                "name": "cherrytomaatjes",
+                "amount": "1 kop"
+            },
+            {
+                "name": "ui (in dunne plakjes)",
+                "amount": "1"
+            },
+            {
+                "name": "olijfolie",
+                "amount": "2 eetlepels"
+            },
+            {
+                "name": "verse kruiden (tijm, rozemarijn)",
+                "amount": "1 eetlepel"
+            }
+        ],
+        "instructions": "Bereid couscous volgens de verpakking. Rooster paprika, courgette, cherrytomaatjes en ui in olijfolie. Meng met couscous en voeg verse kruiden toe.",
+        "cookingTime": 25,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    }
+]
