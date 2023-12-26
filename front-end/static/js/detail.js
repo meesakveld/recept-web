@@ -1,5 +1,5 @@
 import { addLoadingToElement, addLoadingFailed } from './utils.js';
-import { getRecipe } from './api.js';
+import { getRecipe, updateRecipeToServer, saveRecipeToServer, deleteRecipeFromServer } from './api.js';
 
 
 
@@ -88,10 +88,11 @@ function generateHTMLForRecipe(recipe) {
     return `
         <button class="recipe-btn edit">Edit recipe</button>
         <button class="recipe-btn save">Save recipe</button>
+        <button class="recipe-btn delete">Delete recipe</button>
         
         <form>
             <h2 class="h2 title">${recipe.title}</h2>
-            <div class="subtitle"><p class="p servings">${recipe.servings}p</p> | <p class="p cookingtime">${recipe.cookingTime}min</p> | <p class="p difficulty">${recipe.difficulty}</p></div>
+            <div class="subtitle"><p class="p servings">${recipe.servings}</p> | <p class="p cookingtime">${recipe.cookingTime}</p> | <p class="p difficulty">${recipe.difficulty}</p> | <p class="p category">${recipe.category}</p></div>
             
             <ul class="ingredients">
                 <div class=ingredients-items>
@@ -157,16 +158,75 @@ function combineAmoundAndName(ingredients, amounts) {
     return filteredIngredients
 }
 
+function returnRecipe(id, title, category, ingredients, instructions, cookingTime, difficulty, servings) {
+    return {
+        id: id,
+        title: title,
+        category: category,
+        ingredients: ingredients,
+        instructions: instructions,
+        cookingTime: cookingTime,
+        difficulty: difficulty,
+        servings: servings
+    }
+}
+
+function createRecipeFromInputFields(id) {
+    const $titleElement = document.querySelector('.title'); // $titleElement.innerHTML
+    const $categoryElement = document.querySelector('.category');
+    const $ingredientsElement = document.querySelectorAll('.ingredients-items li .name');
+    const $amountElement = document.querySelectorAll('.ingredients-items li .amount');
+    const $instructionsElement = document.querySelector('.instructions p');
+    const $cookingTimeElement = document.querySelector('.cookingtime');
+    const $difficultyElement = document.querySelector('.difficulty');
+    const $servingsElement = document.querySelector('.servings');
+
+    const ingredients = combineAmoundAndName($ingredientsElement, $amountElement);
+
+    return returnRecipe(id, $titleElement.innerHTML, $categoryElement.innerHTML, ingredients, $instructionsElement.innerHTML, $cookingTimeElement.innerHTML, $difficultyElement.innerHTML, $servingsElement.innerHTML)
+}
+
+function getIdFromURL() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const id = urlParams.get('id');
+
+    return id
+}
+
+function loadHTMLForAddRecipe() {
+    return `
+        <button class="recipe-btn edit">Edit recipe</button>
+        <button class="recipe-btn save">Save recipe</button>
+        <button class="recipe-btn delete">Delete recipe</button>
+
+        <form>
+            <input class="h2 title" placeholder="title" value=""></input>
+            <div class="subtitle"><input class="p servings" placeholder="servings" value=""></input> | <input class="p cookingtime" placeholder="cookingtime" value=""></input> | <input class="p difficulty" placeholder="difficulty" value=""></input> | <input class="p category" placeholder="category" value=""></input></div>
+            
+            <div class="ingredients">
+                <ul class=ingredients-items>
+                    <li>•<input class="p name" placeholder="name" value=""><input class="p amount" placeholder="amount" value=""></li>
+                </ul>
+                <button class="addIngredient">Add ingredient</button>
+            </div>
+
+            <div class="instructions">
+                <textarea placeholder="instructions"></textarea>
+            </div>
+        </form>
+    `
+}
 
 
 // ————————————————————————————————————————————————————————————————————————————————————————
 
-function editTagsForEditRecipe() {
+function editRecipe() {
     const $editBtnElement = document.querySelector('.recipe-btn.edit')
     $editBtnElement.addEventListener('click', () => {
         changeToInput('.servings', 'Servings')
         changeToInput('.cookingtime', 'Cookingtime')
         changeToInput('.difficulty', 'Difficulty')
+        changeToInput('.category', 'Category')
         changeToInput('.ingredients .amount', 'Amount')
         changeToInput('.ingredients .name', 'Name')
         changeH2tagToInput('.title', 'Title')
@@ -181,10 +241,12 @@ function editTagsForEditRecipe() {
 
 }
 
-function saveRecipe() {
+async function saveRecipe() {
     const $saveBtnElement = document.querySelector('.recipe-btn.save');
-    $saveBtnElement.addEventListener('click', () => {
-        // ——— Edit interface to p tags ———
+    $saveBtnElement.addEventListener('click', async (ev) => {
+        ev.preventDefault();
+
+        // —————— FRONT-END ——————
         changeTagToPtag('input.p')
         changeTagToH2tag('input.h2')
         changeTextAreaTagToPtag('textarea')
@@ -193,19 +255,64 @@ function saveRecipe() {
         const $recipeElement = document.querySelector('.recipe');
         $recipeElement.classList.remove('edit');
 
-        
-        // ——— Save to server ———
-        const $ingredientsElement = document.querySelectorAll('.ingredients-items li .name');
-        const $amountElement = document.querySelectorAll('.ingredients-items li .amount');
-        console.log(combineAmoundAndName($ingredientsElement, $amountElement));
+
+        // —————— BACK-END ——————
+        const id = getIdFromURL()
+        const recipe = createRecipeFromInputFields(id ? id : null)
+
+        try {
+            if (id) {
+                await updateRecipeToServer(recipe)
+            } else {
+                const response = await saveRecipeToServer(recipe)
+                window.open(`detail.html?id=${response.recipeId}`, '_self')
+            }
+        } catch (error) {
+            console.log(error);
+        }
+
     });
 
 }
 
-async function loadRecipeFromURL() {
+
+async function deleteRecipe() {
+    const $deleteBtnElement = document.querySelector('.recipe-btn.delete');
+    $deleteBtnElement.addEventListener('click', async (ev) => {
+        ev.preventDefault();
+        const id = getIdFromURL()
+
+        try {
+            window.open('index.html', '_self')
+            await deleteRecipeFromServer(id)
+        } catch (error) {
+            console.log(error);
+        }
+    })
+}
+
+function newRecipe() {
+    const $recipeElement = document.querySelector('.recipe');
+
+    $recipeElement.innerHTML = loadHTMLForAddRecipe();
+    $recipeElement.classList.add('edit');
+    $recipeElement.classList.add('new');
+    updateInputValue()
+    updateTextAreaValue()
+    addIngredientItem()
+}
+
+async function loadPage() {    
+    // LOADING PAGE
     addLoadingToElement('.recipe');
-    const urlParams = new URLSearchParams(window.location.search);
-    const id = urlParams.get('id');
+
+    // GET ID FROM URL
+    const id = getIdFromURL()
+
+    // CHECK IF ID EXISTS
+    if (!id) {
+        return newRecipe()
+    }
     await getRecipe(id, addRecipeToHTML);
 }
 
@@ -214,9 +321,10 @@ async function loadRecipeFromURL() {
 
 async function init() {
     try {
-        await loadRecipeFromURL()
-        editTagsForEditRecipe()
-        saveRecipe()
+        await loadPage()
+        editRecipe()
+        await saveRecipe()
+        await deleteRecipe()
     } catch (error) {
         addLoadingFailed(error);
     }
