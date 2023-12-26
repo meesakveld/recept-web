@@ -218,7 +218,7 @@ a.add-recipe {
     margin-top: 2rem;
     line-height: 200%;
 
-    & button.save, & button.addIngredient {
+    & button.save, & button.addIngredient, & button.delete {
         display: none;
     }
 
@@ -236,6 +236,16 @@ a.add-recipe {
             display: block;
             margin-left: 1rem;
             margin-top: 1rem;
+        }
+
+        &.delete {
+            display: inline-block;
+        }
+    }
+
+    &.new button {
+        &.delete {
+            display: none;
         }
     }
 
