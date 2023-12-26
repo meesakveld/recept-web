@@ -50,7 +50,10 @@ async function addRecipe(request, response) {
         })
 
         await writeToFile(recipesFilePath, recipes);
-        response.send(`New recipe with title \"${request.body.title}\" is added with id: ${randomId}`)
+        response.send({
+            message: `New recipe with title \"${request.body.title}\" is added with id: ${randomId}`,
+            recipeId: randomId
+        })
     } catch (error) {
         response.status(500).json({
             error: error.message
@@ -67,9 +70,11 @@ async function editRecipe(request, response) {
 
         // 2. Recipe vinden met id
         let recipe = recipes.find((recipe) => recipe.id === id);
+        let index = recipes.indexOf(recipe);
 
         // 3. Recipe uit recipes bestand aanpassen
-        recipe.title = request.body.title;
+        recipe = request.body
+        recipes[index] = recipe;
 
         // 4. Recipes terug schrijven naar bestand
         await writeToFile(recipesFilePath, recipes);
