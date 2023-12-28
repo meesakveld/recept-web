@@ -48,6 +48,10 @@ body {
     font-family: 'PT Serif', serif;
 }
 
+body.open {
+    overflow: hidden;
+}
+
 .max-width {
     max-width: 70rem;
     margin: 0 auto;
@@ -171,6 +175,61 @@ a.add-recipe {
     color: var(--red);
     font-weight: 700;
 }
+
+.filter-section {
+    margin-bottom: 2rem;
+
+    a {
+        color: var(--red);
+    }
+}
+
+
+/* POPUP */
+.popup__container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+
+    ul {
+        list-style: square;
+        margin: 1rem;
+    }
+}
+
+.popup__container.open {
+    display: block;
+}
+
+.popup {
+    position: absolute;
+    background-color: var(--red);
+    width: 80%;
+    height: 80%;
+    z-index: 1;
+    overflow: scroll;
+    padding: 2rem;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    h2, li {
+        color: var(--white);
+    }
+
+    button {
+        cursor: pointer;
+    }
+}
+
 
 
 /* —————— RECIPES —————— */
