@@ -1,5 +1,5 @@
 import { addLoadingToElement, addLoadingFailed } from './utils.js';
-import { getAllRecipes } from './api.js';
+import { getAllRecipes, getCategories, getDifficulties, getIngredients } from './api.js';
 
 
 function generateHTMLForRecipePreview(recipe) {
@@ -33,18 +33,120 @@ function addHTMLToRecipesPreview(recipes) {
     $recipesPreviewElement.innerHTML = recipesHTML;
 }
 
+function addHTMLForCategorieOptions(categories) {
+    const html = categories.map(category => { 
+        return `
+        <input type="radio" , id="${category}" , name="category">
+        <label for="${category}">${category}</label><br>
+    `
+    }).join('');
+
+    const $categoryFormElement = document.querySelector('#form__category');
+    $categoryFormElement.innerHTML = html;
+}
+
+function loadRecipesForCategory(category) {
+    getAllRecipes((recipes) => {
+        const filteredRecipes = recipes.filter((recipe) => recipe.category === category);
+        addHTMLToRecipesPreview(filteredRecipes);
+    })
+}
+
+function generateHTMLForLi(array) {
+    return array.map((item) => {
+        return `<li>${item}</li>`
+    }).join('');
+}
+
+function checkSelectedCategory() {
+    const $categoryFormElements = document.querySelectorAll('.filter-section input');
+    $categoryFormElements.forEach((elem) => {
+        elem.addEventListener('click', (event) => {
+            const id = event.target.id;
+            if (id === "") {
+                addLoadingToElement('.recipes-preview')
+                loadAllRecipes();
+                return;
+            }
+            addLoadingToElement('.recipes-preview')
+            loadRecipesForCategory(event.target.id);
+        })
+    })
+}
+
+function generateHTMLForPopup(title, data) {
+    const html = `
+    <div class="flex">
+        <h2>${title}</h2>
+        <button class="close-btn">X</button>
+    </div>
+    <ul>
+        ${generateHTMLForLi(data)}
+    </ul>
+    `
+    return html;
+}
+
+function activatePopup(html) {
+    const $popupContainerElement = document.querySelector('.popup__container');
+    const $popupElement = document.querySelector('.popup');
+    const $bodyElement = document.querySelector('body');
+
+    $popupContainerElement.classList.add('open');
+    $bodyElement.classList.add('open');
+
+    $popupElement.innerHTML = html;
+
+    $popupContainerElement.addEventListener('click', () => {
+        $popupContainerElement.classList.remove('open');
+        $bodyElement.classList.remove('open');
+    })
+}
+
 
 // ———————————————————————————————————————————————————————————————————————————
 
-async function loadAllRecipes() {
+function addLoading() {
+    addLoadingToElement('#form__category')
     addLoadingToElement('.recipes-preview')
-    await getAllRecipes(addHTMLToRecipesPreview, '.recipes-preview')
+}
+
+async function loadAllRecipes() {
+    await getAllRecipes(addHTMLToRecipesPreview);
+}
+
+async function loadAllCategories() {
+    await getCategories((data) => {
+        addHTMLForCategorieOptions(data)
+        checkSelectedCategory()
+    });
+}
+
+async function loadPopup() {
+    const $popupButtonElements = document.querySelectorAll('.popup-btn');
+    $popupButtonElements.forEach((elem) => {
+        elem.addEventListener('click', async (ev) => {
+            const classList = ev.target.classList;
+            if (classList.contains('ingredients')) {
+                getIngredients((data) => {
+                    activatePopup(generateHTMLForPopup('Ingredients', data));
+                })
+            } else if (classList.contains('difficulty')) {
+                getDifficulties((data) => {
+                    activatePopup(generateHTMLForPopup('Difficulty', data));
+                })
+            }
+        })
+    })
 }
 
 
 async function init() {
     try {
+        addLoading()
         await loadAllRecipes();
+        await loadAllCategories();
+        await loadPopup();
     } catch (error) {
         addLoadingFailed(error)
     }

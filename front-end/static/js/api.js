@@ -6,6 +6,23 @@ async function getAllRecipes(callback) {
     callback(data);
 }
 
+async function getCategories(callback) {
+    const response = await fetch(API_URL + 'categories');
+    const data = await response.json();
+    callback(data);
+}
+
+async function getDifficulties(callback) {
+    const response = await fetch(API_URL + 'difficulty');
+    const data = await response.json();
+    callback(data);
+}
+
+async function getIngredients(callback) {
+    const response = await fetch(API_URL + 'ingredients');
+    const data = await response.json();
+    callback(data);
+}
 
 async function getRecipe(id, callback) {
     const response = await fetch(API_URL + id);
@@ -51,6 +68,9 @@ async function deleteRecipeFromServer(id) {
 
 export {
     getAllRecipes,
+    getCategories,
+    getDifficulties,
+    getIngredients,
     getRecipe,
     saveRecipeToServer,
     updateRecipeToServer,
