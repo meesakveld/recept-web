@@ -32,35 +32,17 @@
                     <h3>Category</h3>
                     <input type="reset" form="form__category" value="Reset">
                 </div>
-                <form id="form__category">
-                    <input type="radio" , id="pasta" , name="category">
-                    <label for="pasta">Pasta</label><br>
-                    <input type="radio" , id="soup" , name="category">
-                    <label for="soup">Soup</label><br>
-                    <input type="radio" , id="salad" , name="category">
-                    <label for="salad">Salad</label><br>
-                    <input type="radio" , id="dessert" , name="category">
-                    <label for="dessert">Dessert</label><br>
-                    <input type="radio" , id="meat" , name="category">
-                    <label for="meat">Meat</label><br>
-                    <input type="radio" , id="fish" , name="category">
-                    <label for="fish">Fish</label>
-                </form>
+                <form id="form__category"></form>
             </section>
 
             <section class="filter-section">
-                <div class="flex">
-                    <h3>Difficulty level</h3>
-                    <input type="reset" form="form__difficulty-level" value="Reset">
-                </div>
-                <form id="form__difficulty-level">
-                    <input type="radio" , id="easy" , name="difficulty-level">
-                    <label for="easy">Easy</label><br>
-                    <input type="radio" , id="medium" , name="difficulty-level">
-                    <label for="medium">Medium</label><br>
-                    <input type="radio" , id="hard" , name="difficulty-level">
-                    <label for="hard">Hard</label>
-                </form>
+                <h3>Difficulty level</h3>
+                <button class="popup-btn difficulty">View all difficulty levels</button>
+            </section>
+            
+            <section class="filter-section">
+                <h3>Ingredients</h3>
+                <button class="popup-btn ingredients">View all ingredients</button>
             </section>
         </article>
 
@@ -72,6 +54,9 @@
             <div class="recipes-preview"></div>
         </article>
 
+        <div class="popup__container">
+            <div class="popup"></div>
+        </div>
 
     </main>
 
