@@ -39,6 +39,84 @@ async function getRecipe(request, response) {
     }
 }
 
+async function getCategories(request, response) {
+    try {
+        const recipes = await readFile(recipesFilePath);
+        const categories = recipes.map((recipe) => recipe.category);
+        const uniqueCategories = [];
+        categories.forEach((category) => {
+            if (!uniqueCategories.includes(category)) {
+                uniqueCategories.push(category)
+            }
+        })
+        response.json(uniqueCategories)
+    } catch (error) {
+        response.status(500).json({
+            error: error.message
+        })
+    }
+}
+
+async function getRecipesByCategory(request, response) {
+    try {
+        const { category } = request.params;
+        const recipes = await readFile(recipesFilePath);
+
+        // Check if recipe exists
+        const categories = recipes.map((recipe) => recipe.category);
+        if (!categories.includes(category)) {
+            response.status(500).json({
+                error: `Category with name: ${category} not found`
+            })
+            return;
+        }
+
+        const recipesByCategory = recipes.filter((recipe) => recipe.category === category);
+        response.json(recipesByCategory)
+    } catch (error) {
+        response.status(500).json({
+            error: error.message
+        })
+    }
+}
+
+async function getDifficulties(request, response) {
+    try {
+        const recipes = await readFile(recipesFilePath);
+        const difficulties = recipes.map((recipe) => recipe.difficulty);
+        const uniqueDifficulties = [];
+        difficulties.forEach((difficulty) => {
+            if (!uniqueDifficulties.includes(difficulty)) {
+                uniqueDifficulties.push(difficulty)
+            }
+        }
+        )
+        response.json(uniqueDifficulties)
+    } catch (error) {
+        response.status(500).json({
+            error: error.message
+        })
+    }
+}
+
+async function getIngredients(request, response) {
+    try {
+        const recipes = await readFile(recipesFilePath);
+        const ingredients = recipes.map((recipe) => recipe.ingredients).flat().map((ingredient) => ingredient.name);
+        const uniqueIngredients = [];
+        ingredients.forEach((ingredient) => {
+            if (!uniqueIngredients.includes(ingredient)) {
+                uniqueIngredients.push(ingredient)
+            }
+        })
+        response.json(uniqueIngredients)
+    } catch (error) {
+        response.status(500).json({
+            error: error.message
+        })
+    }
+}
+
 async function addRecipe(request, response) {
     console.log(request.body);
     try {
@@ -116,6 +194,10 @@ async function deleteRecipe(request, response) {
 module.exports = {
     getRecipes,
     getRecipe,
+    getCategories,
+    getRecipesByCategory,
+    getDifficulties,
+    getIngredients,
     addRecipe,
     editRecipe,
     deleteRecipe
