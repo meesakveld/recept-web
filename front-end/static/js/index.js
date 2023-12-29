@@ -34,7 +34,7 @@ function addHTMLToRecipesPreview(recipes) {
 }
 
 function addHTMLForCategorieOptions(categories) {
-    const html = categories.map(category => { 
+    const html = categories.map(category => {
         return `
         <input type="radio" , id="${category}" , name="category">
         <label for="${category}">${category}</label><br>
@@ -45,8 +45,8 @@ function addHTMLForCategorieOptions(categories) {
     $categoryFormElement.innerHTML = html;
 }
 
-function loadRecipesForCategory(category) {
-    getAllRecipes((recipes) => {
+async function loadRecipesForCategory(category) {
+    await getAllRecipes((recipes) => {
         const filteredRecipes = recipes.filter((recipe) => recipe.category === category);
         addHTMLToRecipesPreview(filteredRecipes);
     })
@@ -58,18 +58,18 @@ function generateHTMLForLi(array) {
     }).join('');
 }
 
-function checkSelectedCategory() {
+async function checkSelectedCategory() {
     const $categoryFormElements = document.querySelectorAll('.filter-section input');
     $categoryFormElements.forEach((elem) => {
-        elem.addEventListener('click', (event) => {
+        elem.addEventListener('click', async (event) => {
             const id = event.target.id;
             if (id === "") {
                 addLoadingToElement('.recipes-preview')
-                loadAllRecipes();
+                await loadAllRecipes();
                 return;
             }
             addLoadingToElement('.recipes-preview')
-            loadRecipesForCategory(event.target.id);
+            await loadRecipesForCategory(event.target.id);
         })
     })
 }
@@ -133,7 +133,7 @@ async function loadPopup() {
             addLoadingToElement('.popup')
             if (classList.contains('ingredients')) {
                 await getIngredients((data) => {
-                    addContentToPopup(generateHTMLForPopup('Ingredients', data));
+                    addContentToPopup(generateHTMLForPopup('Difficulty levels', data));
                 })
             } else if (classList.contains('difficulty')) {
                 await getDifficulties((data) => {
