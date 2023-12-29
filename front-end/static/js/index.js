@@ -87,20 +87,22 @@ function generateHTMLForPopup(title, data) {
     return html;
 }
 
-function activatePopup(html) {
+function activatePopup() {
     const $popupContainerElement = document.querySelector('.popup__container');
-    const $popupElement = document.querySelector('.popup');
     const $bodyElement = document.querySelector('body');
 
     $popupContainerElement.classList.add('open');
     $bodyElement.classList.add('open');
 
-    $popupElement.innerHTML = html;
-
     $popupContainerElement.addEventListener('click', () => {
         $popupContainerElement.classList.remove('open');
         $bodyElement.classList.remove('open');
     })
+}
+
+function addContentToPopup(html) {
+    const $popupElement = document.querySelector('.popup');
+    $popupElement.innerHTML = html;
 }
 
 
@@ -127,13 +129,15 @@ async function loadPopup() {
     $popupButtonElements.forEach((elem) => {
         elem.addEventListener('click', async (ev) => {
             const classList = ev.target.classList;
+            activatePopup();
+            addLoadingToElement('.popup')
             if (classList.contains('ingredients')) {
-                getIngredients((data) => {
-                    activatePopup(generateHTMLForPopup('Ingredients', data));
+                await getIngredients((data) => {
+                    addContentToPopup(generateHTMLForPopup('Ingredients', data));
                 })
             } else if (classList.contains('difficulty')) {
-                getDifficulties((data) => {
-                    activatePopup(generateHTMLForPopup('Difficulty', data));
+                await getDifficulties((data) => {
+                    addContentToPopup(generateHTMLForPopup('Ingredients', data));
                 })
             }
         })
