@@ -133,11 +133,11 @@ async function loadPopup() {
             addLoadingToElement('.popup')
             if (classList.contains('ingredients')) {
                 await getIngredients((data) => {
-                    addContentToPopup(generateHTMLForPopup('Difficulty levels', data));
+                    addContentToPopup(generateHTMLForPopup('Ingredients', data));
                 })
             } else if (classList.contains('difficulty')) {
                 await getDifficulties((data) => {
-                    addContentToPopup(generateHTMLForPopup('Ingredients', data));
+                    addContentToPopup(generateHTMLForPopup('Difficulty levels', data));
                 })
             }
         })
