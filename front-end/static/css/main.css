@@ -29,7 +29,8 @@ body {
     overflow-x: hidden;
 }
 
-h1, h2 {
+h1,
+h2 {
     padding: 1rem 0;
 }
 
@@ -75,9 +76,17 @@ body.open {
 }
 
 @keyframes loading {
-    0% { opacity: 1; }
-    50% { opacity: 0.3; }
-    100% { opacity: 1; }
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.3;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 article {
@@ -153,7 +162,7 @@ a.add-recipe {
     margin: 0.5rem 0rem 2rem 0rem;
 }
 
-.filter input{
+.filter input {
     margin-bottom: 0.7rem;
 }
 
@@ -221,7 +230,8 @@ a.add-recipe {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    h2, li {
+    h2,
+    li {
         color: var(--white);
     }
 
@@ -268,7 +278,7 @@ a.add-recipe {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
-    }   
+    }
 }
 
 
@@ -277,7 +287,9 @@ a.add-recipe {
     margin-top: 2rem;
     line-height: 200%;
 
-    & button.save, & button.addIngredient, & button.delete {
+    & button.save,
+    & button.addIngredient,
+    & button.delete {
         display: none;
     }
 
@@ -332,8 +344,8 @@ a.add-recipe {
         }
 
     }
-    
-    & .ingredients li{
+
+    & .ingredients li {
         display: flex;
         flex-wrap: wrap;
         column-gap: 0.5rem;
@@ -354,6 +366,7 @@ a.add-recipe {
         border-color: var(--red);
         width: 100%;
         border-radius: 0.25rem;
+        background-color: var(--gray);
     }
 
     & input.title {
@@ -361,5 +374,5 @@ a.add-recipe {
         margin: 1rem auto;
         font-weight: bold;
     }
- 
+
 }
