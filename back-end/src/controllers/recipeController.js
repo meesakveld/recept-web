@@ -129,8 +129,8 @@ async function addRecipe(request, response) {
 
         await writeToFile(recipesFilePath, recipes);
         response.send({
-            message: `New recipe with title \"${request.body.title}\" is added with id: ${randomId}`,
-            recipeId: randomId
+            ...request.body,
+            id: randomId
         })
     } catch (error) {
         response.status(500).json({
@@ -158,7 +158,7 @@ async function editRecipe(request, response) {
         await writeToFile(recipesFilePath, recipes);
 
         // 5. Response terug sturen
-        response.send(`Recipe updated with id: ${id}`)
+        response.send(recipe)
     } catch (error) {
         response.status(500).json({
             error: error.message

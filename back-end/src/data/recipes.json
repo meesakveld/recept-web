@@ -5,26 +5,26 @@
         "category": "Pasta",
         "ingredients": [
             {
-                "name": "spaghetti",
-                "amount": "200g"
+                "amount": "200g",
+                "name": "spaghetti"
             },
             {
-                "name": "eieren",
-                "amount": "2"
+                "amount": "2",
+                "name": "eieren"
             },
             {
-                "name": "spek",
-                "amount": "100g"
+                "amount": "100g",
+                "name": "spek"
             },
             {
-                "name": "Parmezaanse kaas",
-                "amount": "50g"
+                "amount": "50g",
+                "name": "Parmezaanse kaas"
             }
         ],
         "instructions": "Kook de spaghetti en bak het spek. Meng de eieren en kaas. Giet de saus over de spaghetti en meng met spek.",
-        "cookingTime": 20,
+        "cookingTime": "20",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2"
     },
     {
         "id": "f06ac031-b168-47a8-9cc5-5dc4b362ad96",

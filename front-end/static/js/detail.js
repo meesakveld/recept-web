@@ -262,10 +262,11 @@ async function saveRecipe() {
 
         try {
             if (id) {
-                await updateRecipeToServer(recipe)
+                const response = await updateRecipeToServer(recipe)
+                console.log(response)
             } else {
                 const response = await saveRecipeToServer(recipe)
-                window.open(`detail.html?id=${response.recipeId}`, '_self')
+                window.open(`detail.html?id=${response.id}`, '_self')
             }
         } catch (error) {
             console.log(error);
