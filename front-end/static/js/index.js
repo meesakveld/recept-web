@@ -10,8 +10,8 @@ function generateHTMLForRecipePreview(recipe) {
                 <div>
                     <h3>${recipe.title}</h3>
                     <div class="subtitle">
-                        <p>${recipe.servings}p |</p>
-                        <p>${recipe.cookingTime}min |</p>
+                        <p>${recipe.servings} |</p>
+                        <p>${recipe.cookingTime} |</p>
                         <p>${recipe.category}</p>
                     </div>
                 </div>
