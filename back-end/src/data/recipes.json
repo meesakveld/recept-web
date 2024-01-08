@@ -22,9 +22,9 @@
             }
         ],
         "instructions": "Kook de spaghetti en bak het spek. Meng de eieren en kaas. Giet de saus over de spaghetti en meng met spek.",
-        "cookingTime": "20",
+        "cookingTime": "20 min",
         "difficulty": "Gemakkelijk",
-        "servings": "2"
+        "servings": "2p"
     },
     {
         "id": "f06ac031-b168-47a8-9cc5-5dc4b362ad96",
@@ -49,9 +49,9 @@
             }
         ],
         "instructions": "Kook de kipfilet, wortelen en uien in water. Voeg peterselie toe en laat sudderen. Breng op smaak met zout en peper.",
-        "cookingTime": 30,
+        "cookingTime": "30 min",
         "difficulty": "Gemiddeld",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "be5348ba-4654-4aa2-b8fb-0ad57b0cf6d9",
@@ -76,9 +76,9 @@
             }
         ],
         "instructions": "Marineer de zalm in olijfolie, citroensap en dille. Grill tot de zalm gaar is.",
-        "cookingTime": 15,
+        "cookingTime": "15 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "c81a0caa-69c6-4e5a-8e50-51f7800d4d29",
@@ -103,9 +103,9 @@
             }
         ],
         "instructions": "Kook de quinoa volgens de verpakking. Snijd de groenten en meng met de gekookte quinoa. Voeg feta toe en besprenkel met olijfolie.",
-        "cookingTime": 25,
+        "cookingTime": "25 min",
         "difficulty": "Gemakkelijk",
-        "servings": 3
+        "servings": "3p"
     },
     {
         "id": "40de75f7-3588-49ef-8435-4b61e2b69a48",
@@ -130,9 +130,9 @@
             }
         ],
         "instructions": "Snijd alle groenten in plakjes. Schik in een ovenschaal en bak tot ze gaar zijn. Breng op smaak met kruiden naar keuze.",
-        "cookingTime": 40,
+        "cookingTime": "40 min",
         "difficulty": "Gemiddeld",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "2dc399b9-a10d-4092-97f3-0e63f6d5962d",
@@ -157,9 +157,9 @@
             }
         ],
         "instructions": "Kook de spaghetti volgens de verpakking. Bak het gehakt met ui en voeg tomatenpuree toe. Serveer de saus over de spaghetti.",
-        "cookingTime": 25,
+        "cookingTime": "25 min",
         "difficulty": "Gemiddeld",
-        "servings": 3
+        "servings": "3p"
     },
     {
         "id": "77e1a413-26b6-463c-ade0-a18ce3c80261",
@@ -167,26 +167,26 @@
         "category": "Salade",
         "ingredients": [
             {
-                "name": "romaine sla",
-                "amount": "1 krop"
+                "amount": "1 krop",
+                "name": "romaine sla"
             },
             {
-                "name": "kipfilet",
-                "amount": "200g"
+                "amount": "200g",
+                "name": "kipfilet"
             },
             {
-                "name": "croutons",
-                "amount": "1 kop"
+                "amount": "1 kop",
+                "name": "croutons"
             },
             {
-                "name": "Caesar dressing",
-                "amount": "1/2 kop"
+                "amount": "1/2 kop",
+                "name": "Caesar dressing"
             }
         ],
         "instructions": "Snijd de sla en kip. Meng met croutons en dressing. Garneer met Parmezaanse kaas.",
-        "cookingTime": 15,
+        "cookingTime": "15 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "14c98124-fd6f-4c04-a29e-c2777e966fef",
@@ -211,9 +211,9 @@
             }
         ],
         "instructions": "Bak de kip met currypasta. Voeg kokosmelk toe en laat sudderen. Voeg bamboescheuten toe en serveer met rijst.",
-        "cookingTime": 30,
+        "cookingTime": "30 min",
         "difficulty": "Gemiddeld",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "73aa86a2-a258-435b-af62-2c1837170030",
@@ -238,9 +238,9 @@
             }
         ],
         "instructions": "Bak de patty en friet. Plaats de patty in het broodje en serveer met friet. Serveer met mayonaise.",
-        "cookingTime": 25,
+        "cookingTime": "25 min",
         "difficulty": "Gemakkelijk",
-        "servings": 1
+        "servings": "1p"
     },
     {
         "id": "cde19eea-3bfe-4a3e-aa07-a551fe21e6fd",
@@ -265,9 +265,9 @@
             }
         ],
         "instructions": "Bak de gyros en snijd de tomaten en ui. Verwarm de wrap en vul met gyros, tomaten, ui en tzatziki.",
-        "cookingTime": 20,
+        "cookingTime": "20 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "9b94cb90-1699-424c-ba68-f6b90f8791d2",
@@ -292,9 +292,9 @@
             }
         ],
         "instructions": "Bak de ui en champignons. Voeg de rijst toe en bak tot het glazig is. Blus af met witte wijn. Voeg bouillon toe en kook tot de rijst gaar is.",
-        "cookingTime": 30,
+        "cookingTime": "30 min",
         "difficulty": "Gemiddeld",
-        "servings": 3
+        "servings": "3p"
     },
     {
         "id": "09225e6e-33e1-47fb-9161-fd4c9656435d",
@@ -319,9 +319,9 @@
             }
         ],
         "instructions": "Meng tandoori kruiden met yoghurt. Marineer de kip in het mengsel en bak in de oven. Besprenkel met citroensap voor het serveren.",
-        "cookingTime": 40,
+        "cookingTime": "40 min",
         "difficulty": "Gemiddeld",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "57877d69-a85c-4b36-a52f-0dab18f72e9b",
@@ -346,9 +346,9 @@
             }
         ],
         "instructions": "Kook de pasta en bak de kalkoen. Meng met kerstomaatjes en Caesar dressing. Koel voor het serveren.",
-        "cookingTime": 25,
+        "cookingTime": "25 min",
         "difficulty": "Gemakkelijk",
-        "servings": 3
+        "servings": "3p"
     },
     {
         "id": "8524da0b-f61d-43f2-8730-71f4430dc4ce",
@@ -373,9 +373,9 @@
             }
         ],
         "instructions": "Bak de zalm en glazuur met teriyaki saus. Garneer met sesamzaadjes en gesneden bosui.",
-        "cookingTime": 20,
+        "cookingTime": "20 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "df34c2f3-5a7f-48b9-b2b8-8aa5a50b6b0a",
@@ -400,9 +400,9 @@
             }
         ],
         "instructions": "Snijd het brood doormidden en beleg met plakjes tomaat, mozzarella en basilicumblaadjes.",
-        "cookingTime": 15,
+        "cookingTime": "15 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "5f7ef675-c949-45cf-8870-570f37f136dd",
@@ -427,9 +427,9 @@
             }
         ],
         "instructions": "Bak de ui en pompoen. Voeg de rijst toe en bak kort. Voeg bouillon toe en kook tot de rijst gaar is.",
-        "cookingTime": 35,
+        "cookingTime": "35 min",
         "difficulty": "Gemiddeld",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "ff731b68-fd81-43bd-88cb-26acbd941ca1",
@@ -454,9 +454,9 @@
             }
         ],
         "instructions": "Kook de rijst. Bak het gehakt en meng met gekookte rijst. Vul de paprika's en bedek met tomatensaus. Bak in de oven.",
-        "cookingTime": 45,
+        "cookingTime": "45 min",
         "difficulty": "Gemiddeld",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "c9eabd70-85e1-4fb1-8947-460e9cbe6e82",
@@ -481,9 +481,9 @@
             }
         ],
         "instructions": "Bak aubergine en aardappelen. Bak het gehakt en leg afwisselend laagjes in een ovenschaal. Bedek met bechamelsaus en bak in de oven.",
-        "cookingTime": 50,
+        "cookingTime": "50 min",
         "difficulty": "Gemiddeld",
-        "servings": 6
+        "servings": "6p"
     },
     {
         "id": "2628fd3f-227c-4d6b-9623-00af2ae18c61",
@@ -508,9 +508,9 @@
             }
         ],
         "instructions": "Bak de kip met currypasta. Voeg mango en kokosmelk toe. Laat sudderen tot de kip gaar is.",
-        "cookingTime": 35,
+        "cookingTime": "35 min",
         "difficulty": "Gemiddeld",
-        "servings": 3
+        "servings": "3p"
     },
     {
         "id": "1f3b1313-8bfa-4ccb-8584-e8229e7ec6a6",
@@ -535,9 +535,9 @@
             }
         ],
         "instructions": "Kook de pasta en koel af. Meng met kerstomaatjes, komkommer en Italiaanse dressing.",
-        "cookingTime": 20,
+        "cookingTime": "20 min",
         "difficulty": "Gemakkelijk",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "6d42edda-a744-4f4d-9f15-eda0dbcac9aa",
@@ -562,9 +562,9 @@
             }
         ],
         "instructions": "Bak de garnalen met gehakte knoflook en olijfolie. Pers citroensap erover en serveer.",
-        "cookingTime": 15,
+        "cookingTime": "15 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "1a84e471-6783-4b0f-970f-9b49de2811b0",
@@ -589,9 +589,9 @@
             }
         ],
         "instructions": "Snijd aardappelen, prei en uien. Kook in groentebouillon. Pureer tot een gladde soep.",
-        "cookingTime": 30,
+        "cookingTime": "30 min",
         "difficulty": "Gemakkelijk",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "8cd285c4-e005-4584-aac5-3762ba7b546c",
@@ -616,9 +616,9 @@
             }
         ],
         "instructions": "Bak de kippendijen en snijd ze in plakjes. Beleg de wraps met sla, plakjes kip en Caesar dressing. Rol op en serveer.",
-        "cookingTime": 25,
+        "cookingTime": "25 min",
         "difficulty": "Gemakkelijk",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "5ca63fe8-f233-443d-b1ab-58579940fc53",
@@ -643,9 +643,9 @@
             }
         ],
         "instructions": "Bekleed een taartvorm met bladerdeeg. Bak spinazie kort en meng met verkruimelde feta. Klop eieren en giet over de spinazie. Bak in de oven.",
-        "cookingTime": 40,
+        "cookingTime": "40 min",
         "difficulty": "Gemiddeld",
-        "servings": 6
+        "servings": "6p"
     },
     {
         "id": "a38f2aa0-adba-446c-baf0-4b326fe1de5d",
@@ -670,9 +670,9 @@
             }
         ],
         "instructions": "Kook rijstnoedels volgens de verpakking. Roerbak gesneden groenten in sojasaus. Meng met gekookte noedels.",
-        "cookingTime": 20,
+        "cookingTime": "20 min",
         "difficulty": "Gemakkelijk",
-        "servings": 3
+        "servings": "3p"
     },
     {
         "id": "9c12804a-a6e5-4ea5-910c-45712ac0347e",
@@ -697,9 +697,9 @@
             }
         ],
         "instructions": "Wrijf de kip in met olijfolie, gehakte rozemarijn en knoflook. Rooster in de oven tot gaar.",
-        "cookingTime": 60,
+        "cookingTime": "60 min",
         "difficulty": "Gemiddeld",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "af13f2cd-bae8-423d-9b2e-4f5bc6da33b7",
@@ -724,9 +724,9 @@
             }
         ],
         "instructions": "Breng kokosmelk aan de kook. Voeg kippendijen, champignons en citroengras toe. Laat sudderen tot de kip gaar is.",
-        "cookingTime": 30,
+        "cookingTime": "30 min",
         "difficulty": "Gemakkelijk",
-        "servings": 3
+        "servings": "3p"
     },
     {
         "id": "d44bc0b4-7ce7-4f40-ab28-bfc35ecb9b38",
@@ -751,9 +751,9 @@
             }
         ],
         "instructions": "Bekleed een taartvorm met bladerdeeg. Beleg met plakjes tomaat, feta en verse basilicum. Bak in de oven.",
-        "cookingTime": 35,
+        "cookingTime": "35 min",
         "difficulty": "Gemakkelijk",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "73fa3548-2cd0-445b-b3f2-93071bfdc2d0",
@@ -778,9 +778,9 @@
             }
         ],
         "instructions": "Schil en snijd zoete aardappelen. Voeg zwarte bonen, tomaten en chilipoeder toe. Stoof tot de aardappelen gaar zijn.",
-        "cookingTime": 40,
+        "cookingTime": "40 min",
         "difficulty": "Gemakkelijk",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "1812344d-5f86-4d93-9e01-c1981504d8ca",
@@ -805,9 +805,9 @@
             }
         ],
         "instructions": "Kook de pasta en bak de kipfilet. Meng met gehalveerde cherrytomaatjes en pesto. Serveer warm.",
-        "cookingTime": 25,
+        "cookingTime": "25 min",
         "difficulty": "Gemakkelijk",
-        "servings": 3
+        "servings": "3p"
     },
     {
         "id": "6c922e15-adc7-40ca-928b-2d2973514213",
@@ -832,9 +832,9 @@
             }
         ],
         "instructions": "Week rijstnoedels in warm water. Roerbak garnalen en taugé. Voeg gekookte noedels toe en garneer met pinda's.",
-        "cookingTime": 30,
+        "cookingTime": "30 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "c1b3360b-5961-44e0-868b-111520bb2593",
@@ -859,9 +859,9 @@
             }
         ],
         "instructions": "Snijd aubergine in plakjes en bak. Bedek met tomatensaus, Parmezaanse kaas en basilicum. Bak in de oven.",
-        "cookingTime": 45,
+        "cookingTime": "45 min",
         "difficulty": "Gemiddeld",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "5bce95be-5146-4ec5-bd7b-1163bd84dc89",
@@ -886,9 +886,9 @@
             }
         ],
         "instructions": "Snijd komkommer, tomaten en feta. Meng met zwarte olijven. Besprenkel met olijfolie.",
-        "cookingTime": 15,
+        "cookingTime": "15 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "d38dc566-78ab-4281-b120-c51325047aef",
@@ -913,9 +913,9 @@
             }
         ],
         "instructions": "Wrijf kippenpoten in met citroensap, knoflookpoeder en paprikapoeder. Bak in de oven tot goudbruin.",
-        "cookingTime": 50,
+        "cookingTime": "50 min",
         "difficulty": "Gemakkelijk",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "46baa251-0803-4739-b273-2fbfad8c24fe",
@@ -940,9 +940,9 @@
             }
         ],
         "instructions": "Bak gesneden pompoen en ui in kerriepoeder. Voeg kokosmelk toe en kook tot de pompoen zacht is. Pureer tot een gladde soep.",
-        "cookingTime": 35,
+        "cookingTime": "35 min",
         "difficulty": "Gemakkelijk",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "4562f2e2-cbc3-4fe8-adff-b28f71635039",
@@ -967,9 +967,9 @@
             }
         ],
         "instructions": "Bak gehakt en voeg tomatensaus toe. Bouw lasagne op met vellen, gehaktmengsel en mozzarella. Bak in de oven.",
-        "cookingTime": 55,
+        "cookingTime": "55 min",
         "difficulty": "Gemiddeld",
-        "servings": 6
+        "servings": "6p"
     },
     {
         "id": "ea3f367b-d840-4b49-ad71-8968ec454653",
@@ -994,9 +994,9 @@
             }
         ],
         "instructions": "Zet zwarte thee en laat afkoelen. Voeg citroensap, muntblaadjes en suiker toe. Serveer over ijs.",
-        "cookingTime": 10,
+        "cookingTime": "10 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "5b7c9096-e194-47df-a8a6-d19bccfc83ee",
@@ -1021,9 +1021,9 @@
             }
         ],
         "instructions": "Bak ui en champignons. Voeg rijst toe en bak kort. Voeg room toe en kook tot de rijst gaar is.",
-        "cookingTime": 30,
+        "cookingTime": "30 min",
         "difficulty": "Gemiddeld",
-        "servings": 3
+        "servings": "3p"
     },
     {
         "id": "9dfaa59b-2bb5-46bb-8c42-f876eff737cc",
@@ -1048,9 +1048,9 @@
             }
         ],
         "instructions": "Schil en snijd mango. Blend met ananassap, yoghurt en honing tot een gladde smoothie.",
-        "cookingTime": 10,
+        "cookingTime": "10 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "245850ed-3a24-4bca-a1ee-0c7b07e6a1b9",
@@ -1075,9 +1075,9 @@
             }
         ],
         "instructions": "Leg bonen, maïs en cheddar tussen twee tortilla's. Bak tot de kaas smelt. Snijd in punten en serveer.",
-        "cookingTime": 20,
+        "cookingTime": "20 min",
         "difficulty": "Gemakkelijk",
-        "servings": 3
+        "servings": "3p"
     },
     {
         "id": "7f6acff6-af46-4c0e-9e67-4448f902477d",
@@ -1102,9 +1102,9 @@
             }
         ],
         "instructions": "Schil en snijd zoete aardappelen in frietvorm. Meng met olijfolie, paprikapoeder en knoflookpoeder. Bak in de oven.",
-        "cookingTime": 30,
+        "cookingTime": "30 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "d09bb191-d416-47d0-8d4e-3ca00f4b6f9d",
@@ -1129,9 +1129,9 @@
             }
         ],
         "instructions": "Bak kipfilet en kruid met tacokruiden. Vul tortilla's met kip en cheddar. Rol op en leg in een ovenschaal. Bak tot de kaas smelt.",
-        "cookingTime": 40,
+        "cookingTime": "40 min",
         "difficulty": "Gemakkelijk",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "12bcd59a-afe9-464d-8d24-860fe4084c3a",
@@ -1156,9 +1156,9 @@
             }
         ],
         "instructions": "Kook pasta en bak kipfilet. Meng met pesto en gehalveerde cherrytomaatjes. Serveer warm.",
-        "cookingTime": 25,
+        "cookingTime": "25 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "8e358bb1-91fc-40c3-b448-439b4b43b075",
@@ -1183,9 +1183,9 @@
             }
         ],
         "instructions": "Kook rijst volgens de verpakking. Meng met zwarte bonen, maïs en plakjes avocado.",
-        "cookingTime": 20,
+        "cookingTime": "20 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "2ecf3c93-903b-4be9-a434-0b8236828e85",
@@ -1210,9 +1210,9 @@
             }
         ],
         "instructions": "Meng verse spinazie met plakjes aardbeien en verkruimelde geitenkaas. Besprenkel met balsamico vinaigrette.",
-        "cookingTime": 15,
+        "cookingTime": "15 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "a1cfb784-129b-47be-b858-4af82c0d128f",
@@ -1237,9 +1237,9 @@
             }
         ],
         "instructions": "Bak kipfilet en voeg currypasta toe. Giet kokosmelk erbij en laat sudderen. Garneer met verse koriander.",
-        "cookingTime": 35,
+        "cookingTime": "35 min",
         "difficulty": "Gemakkelijk",
-        "servings": 3
+        "servings": "3p"
     },
     {
         "id": "ad13c1e9-5ad9-44cb-8a7a-c4893b03ec9f",
@@ -1264,9 +1264,9 @@
             }
         ],
         "instructions": "Blend bananen met melk, cacaopoeder en honing tot een romige smoothie.",
-        "cookingTime": 10,
+        "cookingTime": "10 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "ce96342d-64f3-409a-b52e-0300d23c7845",
@@ -1291,9 +1291,9 @@
             }
         ],
         "instructions": "Snijd groenten en grill tot ze zacht zijn. Smeer hummus op een wrap en vul met gegrilde groenten.",
-        "cookingTime": 25,
+        "cookingTime": "25 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "c15b14a0-7c06-436f-ba07-cd8f3add4b8e",
@@ -1318,9 +1318,9 @@
             }
         ],
         "instructions": "Schil en snijd komkommer. Blend met yoghurt, muntblaadjes en citroensap tot een gladde soep. Koel voor het serveren.",
-        "cookingTime": 15,
+        "cookingTime": "15 min",
         "difficulty": "Gemakkelijk",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "b71dfec3-bf81-4671-8dd1-0011ae857386",
@@ -1345,9 +1345,9 @@
             }
         ],
         "instructions": "Bak gyros en vul een wrap met het vlees, plakjes tomaat, ui en een lepel tzatziki.",
-        "cookingTime": 30,
+        "cookingTime": "30 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "c3923976-02a0-4933-af8b-ebd92b6d5689",
@@ -1388,9 +1388,9 @@
             }
         ],
         "instructions": "Meng droge ingrediënten. Voeg eieren, melk en gesmolten boter toe. Vouw bosbessen in. Bak in muffinvormpjes.",
-        "cookingTime": 25,
+        "cookingTime": "25 min",
         "difficulty": "Gemiddeld",
-        "servings": 12
+        "servings": "12p"
     },
     {
         "id": "df7553a3-3b88-45ef-8e0b-85626674336b",
@@ -1415,9 +1415,9 @@
             }
         ],
         "instructions": "Marineer zalmfilets in teriyakisaus, knoflookpoeder en geraspte gember. Bak of grill tot de zalm gaar is.",
-        "cookingTime": 20,
+        "cookingTime": "20 min",
         "difficulty": "Gemakkelijk",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "da1414ed-556a-44cf-95cc-8d93fa7213df",
@@ -1446,9 +1446,9 @@
             }
         ],
         "instructions": "Snijd tomaten en mozzarella in plakjes. Leg afwisselend op een schaal. Bestrooi met basilicum. Besprenkel met balsamico glazuur en olijfolie.",
-        "cookingTime": 15,
+        "cookingTime": "15 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "3c36bf9d-d53c-40d4-8c03-8744c8a53f83",
@@ -1473,9 +1473,9 @@
             }
         ],
         "instructions": "Bak kipfilet en kruid met tacokruiden. Vul tortilla's met kip en cheddar. Bak tot de kaas smelt.",
-        "cookingTime": 30,
+        "cookingTime": "30 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "7be869bb-1464-4b6d-9454-711712f29cfe",
@@ -1500,9 +1500,9 @@
             }
         ],
         "instructions": "Bak gesneden pompoen en ui in rode currypasta. Voeg kokosmelk toe en kook tot de pompoen zacht is. Pureer tot een gladde soep.",
-        "cookingTime": 35,
+        "cookingTime": "35 min",
         "difficulty": "Gemakkelijk",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "763a7910-03a3-4ba4-a17a-0de5668b322b",
@@ -1527,9 +1527,9 @@
             }
         ],
         "instructions": "Stoom broccoli en leg in een ovenschaal. Maak een kaassaus van gesmolten boter, bloem, melk en cheddar. Giet over de broccoli en bak in de oven.",
-        "cookingTime": 30,
+        "cookingTime": "30 min",
         "difficulty": "Gemakkelijk",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "27a5217f-7a1b-4533-b874-267edfee14db",
@@ -1550,9 +1550,9 @@
             }
         ],
         "instructions": "Kook aardappelgnocchi volgens de verpakking. Meng met pesto en bestrooi met verse Parmezaanse kaas.",
-        "cookingTime": 15,
+        "cookingTime": "15 min",
         "difficulty": "Gemakkelijk",
-        "servings": 3
+        "servings": "3p"
     },
     {
         "id": "34ed7a27-c6d8-458b-8591-b00bef0a65f7",
@@ -1577,9 +1577,9 @@
             }
         ],
         "instructions": "Meng lamsgehakt met fijngehakte ui, komijnpoeder en gehakte peterselie. Vorm tot ballen en bak of grill.",
-        "cookingTime": 25,
+        "cookingTime": "25 min",
         "difficulty": "Gemakkelijk",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "7e94f2de-b51e-4114-96d1-daba1d4063f4",
@@ -1604,9 +1604,9 @@
             }
         ],
         "instructions": "Schil en snijd perziken. Bouw laagjes in glas met perzik, yoghurt en granola. Drizzle honing over de bovenkant.",
-        "cookingTime": 10,
+        "cookingTime": "10 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "f4b66a73-7938-452e-9374-94773a90e118",
@@ -1631,9 +1631,9 @@
             }
         ],
         "instructions": "Bak arborio rijst in olijfolie. Voeg gehakte tomaten toe. Voeg bouillon toe en kook tot de rijst gaar is. Roer basilicum en Parmezaanse kaas erdoor.",
-        "cookingTime": 30,
+        "cookingTime": "30 min",
         "difficulty": "Gemiddeld",
-        "servings": 3
+        "servings": "3p"
     },
     {
         "id": "11211d48-2dd0-4094-861f-4031769d8c34",
@@ -1662,9 +1662,9 @@
             }
         ],
         "instructions": "Kook linguine en bak garnalen in knoflook en olijfolie. Meng met gehakte peterselie en serveer warm.",
-        "cookingTime": 25,
+        "cookingTime": "25 min",
         "difficulty": "Gemakkelijk",
-        "servings": 3
+        "servings": "3p"
     },
     {
         "id": "39c68184-a014-4654-ae77-cc87fe8d90b3",
@@ -1693,9 +1693,9 @@
             }
         ],
         "instructions": "Bak biefstukken naar wens. In dezelfde pan, bak champignons, ui en knoflook. Voeg room toe en laat sudderen tot de saus indikt.",
-        "cookingTime": 30,
+        "cookingTime": "30 min",
         "difficulty": "Gemiddeld",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "2b92fa29-2fe4-4db4-864c-8d1c0880fd29",
@@ -1720,9 +1720,9 @@
             }
         ],
         "instructions": "Kook quinoa volgens de verpakking. Meng met blokjes avocado, kerstomaatjes en gehakte koriander.",
-        "cookingTime": 20,
+        "cookingTime": "20 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "285b1cb9-e65b-476c-8bab-4a1c13c46b42",
@@ -1747,9 +1747,9 @@
             }
         ],
         "instructions": "Wrijf kip in met rozemarijn, zout en peper. Vul met plakjes citroen. Bak in de oven tot goudbruin en gaar.",
-        "cookingTime": 75,
+        "cookingTime": "75 min",
         "difficulty": "Gemakkelijk",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "364aafe3-8fca-413f-b974-011aa719a2cb",
@@ -1774,9 +1774,9 @@
             }
         ],
         "instructions": "Rooster stukjes stokbrood. Meng tomaten, basilicum en knoflook. Schep op het geroosterde brood.",
-        "cookingTime": 15,
+        "cookingTime": "15 min",
         "difficulty": "Gemakkelijk",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "efbe79d2-42e0-4662-9ff0-fa9e1b6141e0",
@@ -1801,9 +1801,9 @@
             }
         ],
         "instructions": "Bak kippenvleugels in oven tot knapperig. Meng met zoete chilisaus en sojasaus. Bestrooi met geroosterde sesamzaadjes.",
-        "cookingTime": 40,
+        "cookingTime": "40 min",
         "difficulty": "Gemakkelijk",
-        "servings": 3
+        "servings": "3p"
     },
     {
         "id": "a4305a22-a98a-4a8c-89dd-5b6bee68a929",
@@ -1832,9 +1832,9 @@
             }
         ],
         "instructions": "Snijd groenten in dunne plakjes. Leg afwisselend in een ovenschaal. Bak tot de groenten zacht zijn.",
-        "cookingTime": 45,
+        "cookingTime": "45 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "29571821-2e97-4016-86cc-5b6bdd7ddc06",
@@ -1859,9 +1859,9 @@
             }
         ],
         "instructions": "Pureer avocado's met cacaopoeder, honing en vanille-extract tot een gladde mousse. Koel voor het serveren.",
-        "cookingTime": 15,
+        "cookingTime": "15 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "ba501bcf-3ab3-4b13-bc6f-59a1ec458e5d",
@@ -1886,9 +1886,9 @@
             }
         ],
         "instructions": "Grill zalmfilets met citroenrasp en gehakte dille. Serveer met een saus van citroensap en olijfolie.",
-        "cookingTime": 20,
+        "cookingTime": "20 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "edd647f1-f267-4ad6-bcf7-e582255ffa74",
@@ -1913,9 +1913,9 @@
             }
         ],
         "instructions": "Mix pompoenpuree met roomkaas, suiker en pompoentaartkruiden. Giet in een taartvorm en bak tot het midden is gezet.",
-        "cookingTime": 60,
+        "cookingTime": "60 min",
         "difficulty": "Gemiddeld",
-        "servings": 8
+        "servings": "8p"
     },
     {
         "id": "193295e0-c424-4e83-b6c5-03884dfdfaa5",
@@ -1948,9 +1948,9 @@
             }
         ],
         "instructions": "Snijd komkommer, tomaat en feta kaas in blokjes. Voeg zwarte olijven en rode ui toe. Besprenkel met olijfolie.",
-        "cookingTime": 15,
+        "cookingTime": "15 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "3c5b3549-e910-40ed-965f-745af77d971c",
@@ -1975,9 +1975,9 @@
             }
         ],
         "instructions": "Kook penne pasta en bak kipfilet. Meng met room en geraspte Parmezaanse kaas. Verhit tot de saus is ingedikt.",
-        "cookingTime": 25,
+        "cookingTime": "25 min",
         "difficulty": "Gemakkelijk",
-        "servings": 3
+        "servings": "3p"
     },
     {
         "id": "91406a52-f795-4f9f-b969-0cbe0f3875ba",
@@ -1997,9 +1997,9 @@
             }
         ],
         "instructions": "Snijd harde uiteinden van asperges. Marineer met olijfolie, zout en peper. Grill tot ze gaar zijn.",
-        "cookingTime": 15,
+        "cookingTime": "15 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "a536d41d-1a26-4f1a-a565-4659608ec197",
@@ -2024,9 +2024,9 @@
             }
         ],
         "instructions": "Meng kipdijfilets met citroensap, fijngehakte knoflook en gehakte verse tijm. Bak tot de kip gaar is.",
-        "cookingTime": 30,
+        "cookingTime": "30 min",
         "difficulty": "Gemakkelijk",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "e791362b-9d35-495b-8827-3b8da36742aa",
@@ -2055,9 +2055,9 @@
             }
         ],
         "instructions": "Bereid couscous volgens de verpakking. Rooster courgette, paprika en cherrytomaatjes in olijfolie. Meng met couscous.",
-        "cookingTime": 20,
+        "cookingTime": "20 min",
         "difficulty": "Gemakkelijk",
-        "servings": 3
+        "servings": "3p"
     },
     {
         "id": "d8533001-54af-490f-aa87-7ddf01b4e9b5",
@@ -2086,9 +2086,9 @@
             }
         ],
         "instructions": "Bak arborio rijst en ui in olijfolie. Voeg witte wijn toe en laat absorberen. Voeg geleidelijk bouillon toe tot de rijst gaar is. Roer champignons erdoor en laat sudderen.",
-        "cookingTime": 30,
+        "cookingTime": "30 min",
         "difficulty": "Gemiddeld",
-        "servings": 3
+        "servings": "3p"
     },
     {
         "id": "b573c0c9-e7f1-4b02-aef3-57299f3ae1a8",
@@ -2113,9 +2113,9 @@
             }
         ],
         "instructions": "Leg kippendijreepjes, gesneden romaine sla, Caesardressing en geraspte Parmezaanse kaas op een wrap. Vouw dicht en serveer.",
-        "cookingTime": 15,
+        "cookingTime": "15 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "26055535-1300-4c01-9208-61725ba282d6",
@@ -2140,9 +2140,9 @@
             }
         ],
         "instructions": "Breng kippenbouillon aan de kook. Voeg plakjes kipfilet toe en kook tot gaar. Voeg kokosmelk toe en garneer met gehakte verse koriander.",
-        "cookingTime": 25,
+        "cookingTime": "25 min",
         "difficulty": "Gemakkelijk",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "deb6e665-2a1f-4327-b5f8-a68906799101",
@@ -2167,9 +2167,9 @@
             }
         ],
         "instructions": "Bak spinazie en meng met ricotta. Bouw lasagne met afwisselende lagen saus en vellen. Bak in de oven tot bubbels verschijnen.",
-        "cookingTime": 40,
+        "cookingTime": "40 min",
         "difficulty": "Gemakkelijk",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "037670fb-1327-4e22-a5d9-a045b2ba3b6d",
@@ -2194,9 +2194,9 @@
             }
         ],
         "instructions": "Bak zalmfilets met sojasaus en geraspte gember. Kook rijstnoedels volgens de verpakking en serveer met zalm.",
-        "cookingTime": 25,
+        "cookingTime": "25 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "05910947-742b-459c-88d0-030a1ab39f4f",
@@ -2221,9 +2221,9 @@
             }
         ],
         "instructions": "Combineer plakjes peer, geroosterde walnoten, gemengde groene bladsla en verkruimelde geitenkaas in een grote kom.",
-        "cookingTime": 15,
+        "cookingTime": "15 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "c4d5e2da-e1f3-481b-a550-fd6dc3a33650",
@@ -2248,9 +2248,9 @@
             }
         ],
         "instructions": "Meng versnipperde kip met sriracha saus. Leg op wraps met reepjes groene paprika en fijngesneden ijsbergsla.",
-        "cookingTime": 20,
+        "cookingTime": "20 min",
         "difficulty": "Gemakkelijk",
-        "servings": 3
+        "servings": "3p"
     },
     {
         "id": "72f3e5a7-846a-4e7b-9f89-66aceef4680a",
@@ -2275,9 +2275,9 @@
             }
         ],
         "instructions": "Kook rijstnoedels volgens de verpakking. Roerbak tofu en voeg taugé toe. Meng met noedels en garneer met gehakte pinda's.",
-        "cookingTime": 30,
+        "cookingTime": "30 min",
         "difficulty": "Gemakkelijk",
-        "servings": 3
+        "servings": "3p"
     },
     {
         "id": "9d1a0a0a-fb86-41f9-8c2b-b498195a3a76",
@@ -2302,9 +2302,9 @@
             }
         ],
         "instructions": "Kook rode linzen volgens de verpakking. Bak ui in olie, voeg currypasta toe en roerbak. Voeg tomaten en gekookte linzen toe.",
-        "cookingTime": 25,
+        "cookingTime": "25 min",
         "difficulty": "Gemakkelijk",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "351640cd-1ca3-48b1-b1d5-01f8762708ff",
@@ -2329,9 +2329,9 @@
             }
         ],
         "instructions": "Kook havermout in melk volgens de verpakking. Voeg blokjes appel toe en bestrooi met kaneel.",
-        "cookingTime": 10,
+        "cookingTime": "10 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "26013ee3-0bb8-4661-8d69-75e53ee9d76b",
@@ -2364,9 +2364,9 @@
             }
         ],
         "instructions": "Bekleed een taartvorm met bladerdeeg. Verdeel courgette, cherrytomaatjes en ui erover. Klop eieren en melk en giet over de groenten. Bak tot de quiche stevig is.",
-        "cookingTime": 40,
+        "cookingTime": "40 min",
         "difficulty": "Gemakkelijk",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "ea431539-d3dc-4739-8d1c-6f4fee78cfb6",
@@ -2391,9 +2391,9 @@
             }
         ],
         "instructions": "Meng honing, Dijon mosterd en knoflookpoeder. Bestrijk kippenbouten met het mengsel. Bak in de oven tot de kip gaar is.",
-        "cookingTime": 35,
+        "cookingTime": "35 min",
         "difficulty": "Gemakkelijk",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "c1537c38-f43e-4cb4-b75f-e26450a62a45",
@@ -2418,9 +2418,9 @@
             }
         ],
         "instructions": "Leg plakjes tomaat en mozzarella afwisselend op een schaal. Strooi verse basilicumblaadjes erover en besprenkel met balsamico azijn.",
-        "cookingTime": 10,
+        "cookingTime": "10 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "111d3f1e-1f74-4cb3-a963-c5a83d7925f0",
@@ -2444,9 +2444,9 @@
             }
         ],
         "instructions": "Kook witte rijst volgens de verpakking. Meng met limoensap, gehakte verse koriander en zout.",
-        "cookingTime": 15,
+        "cookingTime": "15 min",
         "difficulty": "Gemakkelijk",
-        "servings": 3
+        "servings": "3p"
     },
     {
         "id": "41e40afc-bdf9-444b-ba6d-97f8b90b73f1",
@@ -2471,9 +2471,9 @@
             }
         ],
         "instructions": "Bak garnalen tot ze gaar zijn. Vul maïstortilla's met garnalen, plakjes avocado en koolsla.",
-        "cookingTime": 20,
+        "cookingTime": "20 min",
         "difficulty": "Gemakkelijk",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "55b3948e-c701-4744-9167-be9ea2784b65",
@@ -2498,9 +2498,9 @@
             }
         ],
         "instructions": "Kook pompoenblokjes en ui in groentebouillon tot zacht. Pureer met een staafmixer en voeg chilipoeder toe. Verwarm voor het serveren.",
-        "cookingTime": 30,
+        "cookingTime": "30 min",
         "difficulty": "Gemakkelijk",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "de9dc68d-6835-4525-b63f-b323bc200db7",
@@ -2525,9 +2525,9 @@
             }
         ],
         "instructions": "Meng gekookte quinoa met paneermeel, geraspte kaas en eieren. Vorm tot nuggets en bak tot ze goudbruin en krokant zijn.",
-        "cookingTime": 25,
+        "cookingTime": "25 min",
         "difficulty": "Gemakkelijk",
-        "servings": 3
+        "servings": "3p"
     },
     {
         "id": "5ce4b817-1e55-4814-b5ea-f5b090c1dc92",
@@ -2552,9 +2552,9 @@
             }
         ],
         "instructions": "Schik aardappelplakjes en preiringen in een ovenschaal. Meng room en geraspte Gruyère kaas en giet over de aardappelen en prei. Bak tot de aardappelen gaar zijn en de bovenkant goudbruin is.",
-        "cookingTime": 45,
+        "cookingTime": "45 min",
         "difficulty": "Gemakkelijk",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "0853195b-d75f-493a-94ff-91692ddf3c9c",
@@ -2578,9 +2578,9 @@
             }
         ],
         "instructions": "Blend mango, kokosmelk, Griekse yoghurt en honing tot een gladde smoothie. Serveer gekoeld.",
-        "cookingTime": 10,
+        "cookingTime": "10 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "d4b87fde-2a3e-4918-b376-0d783bc10dd9",
@@ -2605,9 +2605,9 @@
             }
         ],
         "instructions": "Meng pannenkoekenmix met fijngehakte spinazie, verkruimelde feta kaas en eieren. Bak tot goudbruin.",
-        "cookingTime": 20,
+        "cookingTime": "20 min",
         "difficulty": "Gemakkelijk",
-        "servings": 3
+        "servings": "3p"
     },
     {
         "id": "687e1bed-268d-4650-bbd3-ee4c7b9a32d2",
@@ -2632,9 +2632,9 @@
             }
         ],
         "instructions": "Grill zalmfilets en glazuur met teriyakisaus. Serveer bovenop rijst en garneer met plakjes komkommer en blokjes avocado.",
-        "cookingTime": 25,
+        "cookingTime": "25 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "6d25132e-2e5d-4417-9c23-54763960adf2",
@@ -2659,9 +2659,9 @@
             }
         ],
         "instructions": "Roerbak kipfiletblokjes tot ze gaar zijn. Voeg broccoli, sojasaus en geraspte gember toe. Roerbak tot de broccoli knapperig is.",
-        "cookingTime": 20,
+        "cookingTime": "20 min",
         "difficulty": "Gemakkelijk",
-        "servings": 3
+        "servings": "3p"
     },
     {
         "id": "070c5aed-7872-4d2a-af23-af9aaa089525",
@@ -2686,9 +2686,9 @@
             }
         ],
         "instructions": "Mix gedroogde cranberries, amandelen, honing en havermout in een keukenmachine. Rol in ballen en koel in de koelkast.",
-        "cookingTime": 15,
+        "cookingTime": "15 min",
         "difficulty": "Gemakkelijk",
-        "servings": 2
+        "servings": "2p"
     },
     {
         "id": "19b5c328-3334-4a18-9401-b37be372cb42",
@@ -2713,9 +2713,9 @@
             }
         ],
         "instructions": "Meng gehakt met paneermeel, geraspte Parmezaanse kaas en gehakte verse peterselie. Rol in gehaktballen en bak tot ze gaar zijn.",
-        "cookingTime": 30,
+        "cookingTime": "30 min",
         "difficulty": "Gemakkelijk",
-        "servings": 4
+        "servings": "4p"
     },
     {
         "id": "f2e6fad1-df3d-4300-8222-6f68c97cedd9",
@@ -2752,8 +2752,8 @@
             }
         ],
         "instructions": "Bereid couscous volgens de verpakking. Rooster paprika, courgette, cherrytomaatjes en ui in olijfolie. Meng met couscous en voeg verse kruiden toe.",
-        "cookingTime": 25,
+        "cookingTime": "25 min",
         "difficulty": "Gemakkelijk",
-        "servings": 4
+        "servings": "4p"
     }
 ]
