@@ -25,7 +25,8 @@ function addHTMLToRecipesPreview(recipes) {
     const $recipesPreviewElement = document.querySelector('.recipes-preview');
 
     // Generate content
-    const recipesHTML = recipes.map(recipe => {
+    const recipesHTML = recipes.length === 0 ? '<p>No recipes found</p>' :
+    recipes.map(recipe => {
         return generateHTMLForRecipePreview(recipe);
     }).join('');
 
@@ -114,7 +115,9 @@ function addLoading() {
 }
 
 async function loadAllRecipes() {
-    await getAllRecipes(addHTMLToRecipesPreview);
+    const urlParams = new URLSearchParams(window.location.search);
+    const query = urlParams.get('query');
+    await getAllRecipes(addHTMLToRecipesPreview, (query ? query : ""));
 }
 
 async function loadAllCategories() {
@@ -144,6 +147,13 @@ async function loadPopup() {
     })
 }
 
+function activateSearchbar() {
+    const $searchbarElement = document.querySelector('#search');
+    $searchbarElement.querySelector('input[type="submit"]').addEventListener('click', (ev) => {
+        ev.preventDefault();
+        window.open('./index.html?query=' + $searchbarElement.querySelector('input[type="text"]').value, '_self');
+    })
+}
 
 async function init() {
     try {
@@ -151,7 +161,9 @@ async function init() {
         await loadAllRecipes();
         await loadAllCategories();
         await loadPopup();
+        activateSearchbar()
     } catch (error) {
+        console.error(error);
         addLoadingFailed(error)
     }
 }
