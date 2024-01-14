@@ -12,7 +12,6 @@ async function getRecipes(request, response) {
         const search = request.query.query;
         if (search) {
             recipes = recipes.filter((recipe) => recipe.title.toLowerCase().includes(search.toLowerCase()) || recipe.ingredients.map((ingredient) => ingredient.name.toLowerCase()).includes(search.toLowerCase()))
-            console.log(recipes)
         }
         response.json(recipes)
     } catch (error) {
