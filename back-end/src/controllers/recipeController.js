@@ -8,7 +8,12 @@ const recipesFilePath = path.join(__dirname, "..", "data", "recipes.json")
 
 async function getRecipes(request, response) {
     try {
-        const recipes = await readFile(recipesFilePath);
+        let recipes = await readFile(recipesFilePath);
+        const search = request.query.query;
+        if (search) {
+            recipes = recipes.filter((recipe) => recipe.title.toLowerCase().includes(search.toLowerCase()) || recipe.ingredients.map((ingredient) => ingredient.name.toLowerCase()).includes(search.toLowerCase()))
+            console.log(recipes)
+        }
         response.json(recipes)
     } catch (error) {
         response.status(500).json({
