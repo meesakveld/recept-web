@@ -59,18 +59,24 @@ function generateHTMLForLi(array) {
     }).join('');
 }
 
+// Get recipes for selected category
 async function checkSelectedCategory() {
     const $categoryFormElements = document.querySelectorAll('.filter-section input');
     $categoryFormElements.forEach((elem) => {
         elem.addEventListener('click', async (event) => {
-            const id = event.target.id;
-            if (id === "") {
+            try {
+                const id = event.target.id;
+                if (id === "") {
+                    addLoadingToElement('.recipes-preview')
+                    await loadAllRecipes();
+                    return;
+                }
                 addLoadingToElement('.recipes-preview')
-                await loadAllRecipes();
-                return;
+                await loadRecipesForCategory(event.target.id);
+            } catch (error) {
+                console.error(error);
+                addLoadingFailed(error)
             }
-            addLoadingToElement('.recipes-preview')
-            await loadRecipesForCategory(event.target.id);
         })
     })
 }
@@ -131,17 +137,22 @@ async function loadPopup() {
     const $popupButtonElements = document.querySelectorAll('.popup-btn');
     $popupButtonElements.forEach((elem) => {
         elem.addEventListener('click', async (ev) => {
-            const classList = ev.target.classList;
-            activatePopup();
-            addLoadingToElement('.popup')
-            if (classList.contains('ingredients')) {
-                await getIngredients((data) => {
-                    addContentToPopup(generateHTMLForPopup('Ingredients', data));
-                })
-            } else if (classList.contains('difficulty')) {
-                await getDifficulties((data) => {
-                    addContentToPopup(generateHTMLForPopup('Difficulty levels', data));
-                })
+            try {
+                const classList = ev.target.classList;
+                activatePopup();
+                addLoadingToElement('.popup')
+                if (classList.contains('ingredients')) {
+                    await getIngredients((data) => {
+                        addContentToPopup(generateHTMLForPopup('Ingredients', data));
+                    })
+                } else if (classList.contains('difficulty')) {
+                    await getDifficulties((data) => {
+                        addContentToPopup(generateHTMLForPopup('Difficulty levels', data));
+                    })
+                }
+            } catch (error) {
+                console.error(error);
+                addLoadingFailed(error)
             }
         })
     })

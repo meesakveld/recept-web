@@ -172,7 +172,7 @@ function returnRecipe(id, title, category, ingredients, instructions, cookingTim
 }
 
 function createRecipeFromInputFields(id) {
-    const $titleElement = document.querySelector('.title'); // $titleElement.innerHTML
+    const $titleElement = document.querySelector('.title');
     const $categoryElement = document.querySelector('.category');
     const $ingredientsElement = document.querySelectorAll('.ingredients-items li .name');
     const $amountElement = document.querySelectorAll('.ingredients-items li .amount');
@@ -267,14 +267,14 @@ async function saveRecipe() {
         try {
             checkIfItemsInRecipeAreEmpty(recipe)
             if (id) {
-                const response = await updateRecipeToServer(recipe)
-                console.log(response)
+                await updateRecipeToServer(recipe)
             } else {
                 const response = await saveRecipeToServer(recipe)
                 window.open(`detail.html?id=${response.id}`, '_self')
             }
         } catch (error) {
-            console.log(error);
+            console.error(error)
+            addLoadingFailed(error)
         }
 
     });
@@ -294,14 +294,15 @@ function checkIfItemsInRecipeAreEmpty(recipe) {
 async function deleteRecipe() {
     const $deleteBtnElement = document.querySelector('.recipe-btn.delete');
     $deleteBtnElement.addEventListener('click', async (ev) => {
-        ev.preventDefault();
-        const id = getIdFromURL()
-
         try {
+            ev.preventDefault();
+            const id = getIdFromURL()
+
             window.open('index.html', '_self')
             await deleteRecipeFromServer(id)
         } catch (error) {
-            console.log(error);
+            console.error(error)
+            addLoadingFailed(error)
         }
     })
 }
@@ -341,6 +342,7 @@ async function init() {
         await saveRecipe()
         await deleteRecipe()
     } catch (error) {
+        console.error(error);
         addLoadingFailed(error);
     }
 }
