@@ -266,6 +266,8 @@ async function saveRecipe() {
 
         try {
             checkIfItemsInRecipeAreEmpty(recipe)
+        } catch { return }
+        try {
             if (id) {
                 await updateRecipeToServer(recipe)
             } else {
