@@ -217,26 +217,30 @@ function loadHTMLForAddRecipe() {
     `
 }
 
+function activeEditRecipe() {
+    changeToInput('.servings', 'Servings')
+    changeToInput('.cookingtime', 'Cookingtime')
+    changeToInput('.difficulty', 'Difficulty')
+    changeToInput('.category', 'Category')
+    changeToInput('.ingredients .amount', 'Amount')
+    changeToInput('.ingredients .name', 'Name')
+    changeH2tagToInput('.title', 'Title')
+    changePtagToTextArea('.instructions p', 'Instructions')
+    const $recipeElement = document.querySelector('.recipe');
+    $recipeElement.classList.add('edit');
+
+    updateInputValue()
+    updateTextAreaValue()
+    addIngredientItem()
+}
+
 
 // ————————————————————————————————————————————————————————————————————————————————————————
 
 function editRecipe() {
     const $editBtnElement = document.querySelector('.recipe-btn.edit')
     $editBtnElement.addEventListener('click', () => {
-        changeToInput('.servings', 'Servings')
-        changeToInput('.cookingtime', 'Cookingtime')
-        changeToInput('.difficulty', 'Difficulty')
-        changeToInput('.category', 'Category')
-        changeToInput('.ingredients .amount', 'Amount')
-        changeToInput('.ingredients .name', 'Name')
-        changeH2tagToInput('.title', 'Title')
-        changePtagToTextArea('.instructions p', 'Instructions')
-        const $recipeElement = document.querySelector('.recipe');
-        $recipeElement.classList.add('edit');
-
-        updateInputValue()
-        updateTextAreaValue()
-        addIngredientItem()
+        activeEditRecipe()
     });
 
 }
@@ -261,6 +265,7 @@ async function saveRecipe() {
         const recipe = createRecipeFromInputFields(id ? id : null)
 
         try {
+            checkIfItemsInRecipeAreEmpty(recipe)
             if (id) {
                 const response = await updateRecipeToServer(recipe)
                 console.log(response)
@@ -276,6 +281,15 @@ async function saveRecipe() {
 
 }
 
+function checkIfItemsInRecipeAreEmpty(recipe) {
+    if (recipe.title === "" || recipe.category === "" || recipe.ingredients.length === 0 || recipe.instructions === "" || recipe.cookingTime === "" || recipe.difficulty === "" || recipe.servings === "") {
+        window.alert('Please fill in all the fields')
+        activeEditRecipe()
+        throw new Error('Please fill in all the fields')
+    } else {
+        return false
+    }
+}
 
 async function deleteRecipe() {
     const $deleteBtnElement = document.querySelector('.recipe-btn.delete');
@@ -303,7 +317,7 @@ function newRecipe() {
     addIngredientItem()
 }
 
-async function loadPage() {    
+async function loadPage() {
     // LOADING PAGE
     addLoadingToElement('.recipe');
 
