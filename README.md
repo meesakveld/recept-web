@@ -11,7 +11,7 @@ This project was my first full-stack web development project where i became fami
 
 1. Clone the repository
     ```bash
-    git clone
+    git clone https://github.com/meesakveld/recipe-book.git
     ```
 2. Install the dependencies in the back-end folder
     ```bash
